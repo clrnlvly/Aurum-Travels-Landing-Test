@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AurumParadise</title>
+
+    <!-- Material Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!-- Materialize CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <!-- Custom CSS -->
+    <style>
+        h1 {
+            margin-top: 0;
+            font-weight: 700;
+            padding-top: 20px;
+        }
+
+        .php {
+            background: url('./travel-images/timor-leste-flag.jpg') center/cover no-repeat;
+            height: 1000px;
+            /* Full height of the viewport */
+            position: relative;
+        }
+
+        .php::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: url('./travel-images/timor-leste-flag.jpg') center/cover no-repeat;
+            /* Apply the same background image */
+            filter: blur(20px);
+            /* Apply blur to the background image */
+            z-index: -1;
+            /* Ensure the blur is behind content */
+        }
+
+        /* Styles inside the media query */
+        @media screen and (max-width: 768px) {
+
+            /* Override styles for smaller screens */
+            .php h1 {
+                color: black !important;
+                padding-top: 0px !important;
+            }
+
+            .php {
+                background: none !important;
+                height: auto !important;
+                /* Adjust height for mobile view */
+            }
+
+            .php::after {
+                background: none !important;
+            }
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="php">
+        <br>
+        <br>
+        <h1 class="center white-text">Timor-Leste</h1>
+        <br>
+        <br>
+        <!-- Main Row -->
+        <div class="row container">
+            <!-- Left Column: Image Card -->
+            <div class="col s12 m4">
+                <div class="card small">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="travel-images/Atauro Island.jpg">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">Atauro Island<i
+                                class="material-icons right">more_vert</i></span>
+                        <p><a href="https://travelsetu.com/guide/atauro-island-tourism/food-in-atauro-island"
+                                target="_blank">Food in the Island</a></p>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4" style="text-align: center;">"Atauro Island – A
+                            Snorkeler’s Paradise"<i class="material-icons right"></i></span>
+                        <p style="text-align: justify;">Atauro Island, located just off the northern coast of
+                            Timor-Leste, is a pristine, untouched paradise known for its stunning natural beauty and
+                            vibrant marine life. The island is famous for its crystal-clear waters, which make it a
+                            haven for divers and snorkelers, with some of the world’s most biodiverse coral reefs. </p>
+                        <p style="text-align: justify;"> Atauro is also home to picturesque beaches, scenic mountains,
+                            and traditional Timorese villages, offering a peaceful and authentic cultural experience.
+                            With a focus on sustainability and eco-tourism, Atauro Island is perfect for travelers
+                            looking to explore unspoiled nature, engage with local communities, and experience the
+                            tranquility of an island retreat.</p>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="col s12 m4">
+                <div class="card small">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="travel-images/Dili.jpg">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">Dili<i
+                                class="material-icons right">more_vert</i></span>
+                        <p><a href="https://www.tripadvisor.com.ph/Restaurants-g297517-Dili_Dili_District.html"
+                                target="_blank">Restaurants in Dili</a></p>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4" style="text-align: center;">"Dili: The Vibrant
+                            Capital of Timor-Leste"<i class="material-icons right"></i></span>
+                        <p style="text-align: justify;">Dili, the capital of Timor-Leste, is a bustling coastal city
+                            that blends modernity with rich cultural heritage. Located on the island's northern coast,
+                            Dili offers visitors a unique glimpse into the country’s history and traditions. Key
+                            attractions include the Cristo Rei statue, offering panoramic views of the city and
+                            surrounding landscapes, and the tranquil beaches of Areia Branca and Tasitolu.
+                        </p>
+                        <p style="text-align: justify;">Dili’s vibrant markets, local cafes, and historical landmarks,
+                            such as the Resistance Museum and the Old Portuguese Fort, reflect the city’s colonial past
+                            and its journey to independence. With its welcoming atmosphere, Dili serves as the gateway
+                            to exploring Timor-Leste’s natural beauty and cultural diversity.</p>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="col s12 m4">
+                <div class="card small">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="travel-images/Mount Ramelau.jpg">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">Mount Ramelau<i
+                                class="material-icons right">more_vert</i></span>
+                        <p><a href="https://travelsetu.com/guide/mount-ramelau-tourism/food-in-mount-ramelau"
+                                target="_blank">Top 10 Dishes</a></p>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4" style="text-align: center;">"Mount Ramelau: The
+                            Highest Peak in Timor-Leste"<i class="material-icons right"></i></span>
+                        <p style="text-align: justify;">Mount Ramelau, also known as Mount Tatamailau, is the highest
+                            peak in Timor-Leste, standing at 2,963 meters above sea level. Located in the central part
+                            of the country, it offers an extraordinary trekking experience for adventurous travelers and
+                            nature enthusiasts. The summit is considered sacred by locals, and reaching the top rewards
+                            hikers with breathtaking views of the surrounding valleys and islands, including the nearby
+                            Ataúro Island.
+                        </p>
+                        <p style="text-align: justify;">The trek to the summit is a popular pilgrimage for both
+                            spiritual and adventure seekers, with the final stretch often marked by a stunning sunrise.
+                            Mount Ramelau is an iconic natural landmark, offering a blend of natural beauty, cultural
+                            significance, and physical challenge.
+                        </p>
+                    </div>
+
+
+                </div>
+            </div>
+
+            <div class="row">
+                <!-- Left Column: Image Card -->
+                <div class="col s12 m4">
+                    <div class="card small">
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <img class="activator" src="travel-images/Jaco Island.webp">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title activator grey-text text-darken-4">Jaco Island<i
+                                    class="material-icons right">more_vert</i></span>
+                            <p><a href="https://travelsetu.com/guide/jaco-island-tourism/food-in-jaco-island"
+                                    target="_blank">Traditional Food</a></p>
+                        </div>
+                        <div class="card-reveal">
+                            <span class="card-title grey-text text-darken-4" style="text-align: center;">"Jaco Island: A
+                                Secluded Paradise in Timor-Leste"<i class="material-icons right"></i></span>
+                            <p style="text-align: justify;">Jaco Island, located off the eastern tip of Timor-Leste, is
+                                a pristine and untouched paradise known for its white-sand beaches, crystal-clear
+                                waters, and vibrant marine life. Accessible by boat from the nearby town of Tutuala,
+                                Jaco Island is a protected nature reserve, making it an ideal destination for nature
+                                lovers and eco-tourism enthusiasts. </p>
+                            <p style="text-align: justify;">The island is perfect for snorkeling, diving, and enjoying
+                                peaceful beach walks, while its surrounding waters are home to colorful coral reefs and
+                                diverse marine species. With its remote and tranquil atmosphere, Jaco Island offers an
+                                idyllic escape for those seeking solitude and natural beauty in a pristine setting.</p>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col s12 m4">
+                    <div class="card small">
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <img class="activator" src="travel-images/Maubisse.jpg">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title activator grey-text text-darken-4">Maubisse<i
+                                    class="material-icons right">more_vert</i></span>
+                            <p><a href="https://travelsetu.com/guide/maubisse-market-tourism/food-in-maubisse-market"
+                                    target="_blank">Food Market</a></p>
+                        </div>
+                        <div class="card-reveal">
+                            <span class="card-title grey-text text-darken-4" style="text-align: center;">"Maubisse: A
+                                Charming Highland Town in Timor-Leste"<i class="material-icons right"></i></span>
+                            <p style="text-align: justify;">Maubisse, a picturesque town nestled in the mountains of
+                                Timor-Leste, offers visitors a serene escape with its cool climate, scenic landscapes,
+                                and rich cultural heritage. Located about 70 kilometers south of Dili, it is known for
+                                its lush green hills, traditional villages, and colonial-era architecture. Maubisse is a
+                                great base for exploring the surrounding mountains, trekking, and experiencing rural
+                                Timorese life. </p>
+                            <p style="text-align: justify;">The town is also famous for its historical significance,
+                                being a site of resistance during the struggle for independence. With its tranquil
+                                ambiance and natural beauty, Maubisse is perfect for travelers looking to immerse
+                                themselves in Timor-Leste's culture and explore its stunning highland landscapes.
+                            </p>
+                        </div>
+
+
+                    </div>
+                </div>
+
+                <div class="col s12 m4">
+                    <div class="card small">
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <img class="activator" src="travel-images/Manatuto.jpg">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title activator grey-text text-darken-4">Manatuto<i
+                                    class="material-icons right">more_vert</i></span>
+                            <p><a href="https://www.tripadvisor.com/Restaurant_Review-g20045251-d20034758-Reviews-Lyzena_Restaurant-Manatuto_Manatuto_District.html"
+                                    target="_blank">Lyzena Restaurant</a></p>
+                        </div>
+                        <div class="card-reveal">
+                            <span class="card-title grey-text text-darken-4" style="text-align: center;">"Manatuto: A
+                                Tranquil Coastal Town in Timor-Leste"<i class="material-icons right"></i></span>
+                            <p style="text-align: justify;">Manatuto is a quiet coastal town located on the northern
+                                coast of Timor-Leste, known for its natural beauty and relaxed atmosphere. Situated
+                                about 100 kilometers east of Dili, the town is surrounded by picturesque beaches,
+                                rolling hills, and lush landscapes. Manatuto is an ideal destination for those seeking a
+                                peaceful retreat or exploring rural Timorese life.</p>
+                            <p style="text-align: justify;">The town is also rich in history, with local markets
+                                offering a glimpse into traditional customs and lifestyle. With its laid-back vibe,
+                                beautiful coastline, and proximity to cultural landmarks, Manatuto is a perfect stop for
+                                travelers looking to experience the serenity and charm of Timor-Leste's coastal regions.
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="center container">
+                <a class="waves-effect waves-light btn-large" id="book-btn" href="book-now.html">
+                    <i class="material-icons right">flight</i>
+                    Book your travel now
+                </a>
+            </div>
+        </div>
+
+        <!-- jQuery and Materialize JavaScript -->
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+        <!-- Initialize Materialize Components -->
+        <script>
+            $(document).ready(function () {
+                // Initialize slider
+                $('.slider').slider({
+                    height: 300, // Adjust height
+                    indicators: true, // Show indicators
+                    interval: 4000 // Time between transitions
+                });
+            });
+        </script>
+</body>
+
+</html>

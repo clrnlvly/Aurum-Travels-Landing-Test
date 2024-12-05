@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AurumParadise</title>
+
+    <!-- Material Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!-- Materialize CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <!-- Custom CSS -->
+    <style>
+        h1 {
+            margin-top: 0;
+            font-weight: 700;
+            padding-top: 20px;
+        }
+
+        .php {
+            background: url('./travel-images/cambodia-flag.png') center/cover no-repeat;
+            height: 1000px;
+            /* Full height of the viewport */
+            position: relative;
+        }
+
+        .php::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: url('./travel-images/cambodia-flag.png') center/cover no-repeat;
+            /* Apply the same background image */
+            filter: blur(20px);
+            /* Apply blur to the background image */
+            z-index: -1;
+            /* Ensure the blur is behind content */
+        }
+
+        /* Styles inside the media query */
+        @media screen and (max-width: 768px) {
+
+            /* Override styles for smaller screens */
+            .php h1 {
+                color: black !important;
+                padding-top: 0px !important;
+            }
+
+            .php {
+                background: none !important;
+                height: auto !important;
+                /* Adjust height for mobile view */
+            }
+
+            .php::after {
+                background: none !important;
+            }
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="php">
+        <br>
+        <br>
+        <h1 class="center white-text">Cambodia</h1>
+        <br>
+        <br>
+        <!-- Main Row -->
+        <div class="row container">
+            <!-- Left Column: Image Card -->
+            <div class="col s12 m4">
+                <div class="card small">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="travel-images/Angkor Wat.jpg">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">Angkor Wat<i
+                                class="material-icons right">more_vert</i></span>
+                        <p><a href="https://theculturetrip.com/asia/cambodia/articles/the-10-best-restaurants-in-siem-reap-and-angkor-wat"
+                                target="_blank">Fine Dining</a></p>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4" style="text-align: center;">"Angkor Wat: The
+                            Majestic Temple Complex of Cambodia"<i class="material-icons right"></i></span>
+                        <p style="text-align: justify;">Angkor Wat, located in Siem Reap, Cambodia, is one of the most
+                            iconic and largest religious monuments in the world. Originally constructed in the early
+                            12th century as a Hindu temple dedicated to the god Vishnu, it later became a Buddhist
+                            temple. The sprawling temple complex is renowned for its grandeur, intricate bas-reliefs,
+                            and stunning architecture, which includes towering spires, galleries, and expansive
+                            courtyards. </p>
+                        <p style="text-align: justify;">The central tower of Angkor Wat represents Mount Meru, the
+                            center of the universe in Hindu and Buddhist cosmology. As one of Cambodia’s most famous
+                            landmarks, Angkor Wat draws millions of visitors each year, offering a mesmerizing glimpse
+                            into the country’s ancient history, culture, and spiritual heritage. Its beauty, historical
+                            significance, and spiritual aura make it an unmissable destination.</p>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="col s12 m4">
+                <div class="card small">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="travel-images/Bayon Temple.jpg">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">Bayon Temple<i
+                                class="material-icons right">more_vert</i></span>
+                        <p><a href="https://www.yelp.com/biz/bayon-temple-campbell" target="_blank">Popular Dishes</a>
+                        </p>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4" style="text-align: center;">"Bayon Temple: The
+                            Enigmatic Temple of Smiling Faces"<i class="material-icons right"></i></span>
+                        <p style="text-align: justify;">Bayon Temple, located in the heart of Angkor Thom in Siem Reap,
+                            Cambodia, is one of the most captivating and mysterious temples of the Angkor Archaeological
+                            Park. Built in the late 12th century by King Jayavarman VII, Bayon is renowned for its
+                            unique architectural design and its hundreds of giant stone faces, believed to represent the
+                            king himself or Avalokiteshvara, the Bodhisattva of compassion.
+                        </p>
+                        <p style="text-align: justify;">The temple’s towers are adorned with more than 200 smiling
+                            faces, offering a mesmerizing and enigmatic atmosphere. The intricate bas-reliefs
+                            surrounding the temple depict scenes from both historical events and daily life during the
+                            Khmer Empire. Bayon Temple’s unique combination of artistry, spirituality, and history makes
+                            it one of the most visited and admired sites in Angkor.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col s12 m4">
+                <div class="card small">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="travel-images/Pub Street.jpg">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">Pub Street<i
+                                class="material-icons right">more_vert</i></span>
+                        <p><a href="https://restaurant-siemreap.com/pub-street/" target="_blank">Pub Restaurants</a></p>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4" style="text-align: center;">"Pub Street: The
+                            Lively Heart of Siem Reap’s Nightlife"<i class="material-icons right"></i></span>
+                        <p style="text-align: justify;">Pub Street, located in the center of Siem Reap, Cambodia, is a
+                            vibrant and bustling area known for its lively nightlife and entertainment. This popular
+                            street is lined with bars, restaurants, clubs, and shops, offering a wide range of food,
+                            drinks, and entertainment to suit every taste.
+                        </p>
+                        <p style="text-align: justify;">It’s the perfect place to unwind after a day of exploring the
+                            Angkor temples, with a lively atmosphere, street performances, and an array of options for
+                            both locals and tourists. Whether you're looking to enjoy a casual drink, experience
+                            traditional Cambodian cuisine, or dance the night away, Pub Street is the go-to destination
+                            for an unforgettable night out in Siem Reap.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <!-- Left Column: Image Card -->
+                <div class="col s12 m4">
+                    <div class="card small">
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <img class="activator" src="travel-images/Tonle Sap.webp">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title activator grey-text text-darken-4">Tonle Sap<i
+                                    class="material-icons right">more_vert</i></span>
+                            <p><a href="https://streetcuisine.blogspot.com/2015/01/grilled-fish-from-tonle-sap.html"
+                                    target="_blank">Fish Dishes</a></p>
+                        </div>
+                        <div class="card-reveal">
+                            <span class="card-title grey-text text-darken-4" style="text-align: center;">"Tonle Sap:
+                                Southeast Asia's Largest Freshwater Lake"<i class="material-icons right"></i></span>
+                            <p style="text-align: justify;">Tonle Sap, located in central Cambodia, is Southeast Asia's
+                                largest freshwater lake and one of the most vital ecosystems in the region. The lake is
+                                famous for its dramatic seasonal changes in size, expanding significantly during the
+                                rainy season and shrinking in the dry season. This unique phenomenon is due to the Tonle
+                                Sap River, which reverses direction and flows into the lake, making it an essential
+                                resource for local communities. </p>
+                            <p style="text-align: justify;"> Tonle Sap is home to a wide range of wildlife, including
+                                fish, birds, and aquatic plants, and supports numerous floating villages, where people
+                                live and work on the water. Visitors can take boat tours to explore the lake’s scenic
+                                beauty, its diverse wildlife, and the vibrant cultures of the communities that rely on
+                                the lake for their livelihoods. With its ecological importance and cultural richness,
+                                Tonle Sap is a must-visit destination for those interested in nature and Cambodian life.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col s12 m4">
+                    <div class="card small">
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <img class="activator" src="travel-images/Koh Ker.jpg">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title activator grey-text text-darken-4">Koh Ker<i
+                                    class="material-icons right">more_vert</i></span>
+                            <p><a href="https://www.maisonpolanka.com/cambodian-cuisine/" target="_blank">Cambodian
+                                    Cuisine</a></p>
+                        </div>
+                        <div class="card-reveal">
+                            <span class="card-title grey-text text-darken-4" style="text-align: center;">"Koh Ker: The
+                                Hidden Gem of Ancient Cambodia"<i class="material-icons right"></i></span>
+                            <p style="text-align: justify;">Koh Ker is an ancient temple complex located in the remote
+                                jungles of northern Cambodia, far from the crowds of Angkor. Once the capital of the
+                                Khmer Empire in the 10th century, Koh Ker is known for its unique architectural style
+                                and impressive ruins, many of which remain less explored. The centerpiece of the site is
+                                the towering Prasat Thom, a 7-tiered pyramid-shaped temple that stands as the tallest
+                                structure in the complex. </p>
+                            <p style="text-align: justify;">The area is scattered with dozens of smaller temples,
+                                sanctuaries, and carvings, many of which are still being uncovered. Koh Ker offers a
+                                serene, off-the-beaten-path experience for visitors who are keen to explore Cambodia’s
+                                ancient history beyond the well-known Angkor temples. Its relative isolation and
+                                mysterious atmosphere make Koh Ker a hidden gem for history and archaeology enthusiasts.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col s12 m4">
+                    <div class="card small">
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <img class="activator" src="travel-images/Kratie.jpg">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title activator grey-text text-darken-4">Kratie<i
+                                    class="material-icons right">more_vert</i></span>
+                            <p><a href="https://www.travelfish.org/eatandmeet/cambodia/northeastern_cambodia/kratie/kratie/eat"
+                                    target="_blank">Food and Drinks</a></p>
+                        </div>
+                        <div class="card-reveal">
+                            <span class="card-title grey-text text-darken-4" style="text-align: center;">"Kratie: A
+                                Tranquil Escape Along the Mekong River"<i class="material-icons right"></i></span>
+                            <p style="text-align: justify;">Kratie, a peaceful town in northeastern Cambodia, offers a
+                                serene retreat with its charming riverside setting along the Mekong River. Known for its
+                                laid-back atmosphere, Kratie is best known as one of the few places where visitors can
+                                spot the rare Irrawaddy dolphins, which inhabit the river's waters.</p>
+                            <p style="text-align: justify;">The town also boasts beautiful colonial architecture,
+                                vibrant markets, and a chance to experience traditional Cambodian life. Nearby, the 100
+                                Pillar Pagoda offers stunning views of the river and surrounding countryside. Kratie’s
+                                natural beauty, combined with its cultural and wildlife attractions, makes it an ideal
+                                destination for travelers seeking a quieter, more authentic side of Cambodia.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="center container">
+                <a class="waves-effect waves-light btn-large" id="book-btn" href="book-now.html">
+                    <i class="material-icons right">flight</i>
+                    Book your travel now
+                </a>
+            </div>
+        </div>
+
+        <!-- jQuery and Materialize JavaScript -->
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+        <!-- Initialize Materialize Components -->
+        <script>
+            $(document).ready(function () {
+                // Initialize slider
+                $('.slider').slider({
+                    height: 300, // Adjust height
+                    indicators: true, // Show indicators
+                    interval: 4000 // Time between transitions
+                });
+            });
+        </script>
+</body>
+
+</html>

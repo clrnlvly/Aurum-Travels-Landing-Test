@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AurumParadise</title>
+
+    <!-- Material Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!-- Materialize CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <!-- Custom CSS -->
+    <style>
+        h1 {
+            margin-top: 0;
+            font-weight: 700;
+            padding-top: 20px;
+        }
+
+        .php {
+            background: url('./travel-images/indonesia-flag.jpg') center/cover no-repeat;
+            height: 1000px;
+            /* Full height of the viewport */
+            position: relative;
+        }
+
+        .php::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: url('./travel-images/indonesia-flag.jpg') center/cover no-repeat;
+            /* Apply the same background image */
+            filter: blur(20px);
+            /* Apply blur to the background image */
+            z-index: -1;
+            /* Ensure the blur is behind content */
+        }
+
+        /* Styles inside the media query */
+        @media screen and (max-width: 768px) {
+
+            /* Override styles for smaller screens */
+            .php h1 {
+                color: black !important;
+                padding-top: 0px !important;
+            }
+
+            .php {
+                background: none !important;
+                height: auto !important;
+                /* Adjust height for mobile view */
+            }
+
+            .php::after {
+                background: none !important;
+            }
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="php">
+        <br>
+        <br>
+        <h1 class="center white-text">Indonesia</h1>
+        <br>
+        <br>
+        <!-- Main Row -->
+        <div class="row container">
+            <!-- Left Column: Image Card -->
+            <div class="col s12 m4">
+                <div class="card small">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="travel-images/Borobudur.jpg">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">Borobudur<i
+                                class="material-icons right">more_vert</i></span>
+                        <p><a href="https://www.indonesia.travel/ph/en/trip-ideas/9-surprisingly-delicious-local-food-near-borobudur.html"
+                                target="_blank">Delicious Local Food</a></p>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4" style="text-align: center;">"Borobudur: A
+                            Majestic Buddhist Marvel in Indonesia"<i class="material-icons right"></i></span>
+                        <p style="text-align: justify;">Borobudur, located in Central Java, Indonesia, is the world’s
+                            largest Buddhist temple and a UNESCO World Heritage Site. Built in the 9th century, this
+                            stunning monument is renowned for its intricate carvings and towering stupas, which depict
+                            the life and teachings of the Buddha. The temple’s structure is a massive pyramid, with nine
+                            stacked platforms and over 500 Buddha statues. </p>
+                        <p style="text-align: justify;">Visitors can explore the temple’s many reliefs and walk around
+                            its terraces, taking in panoramic views of the surrounding lush landscape and volcanic
+                            mountains. Borobudur is not only a religious site but also a testament to Indonesia's rich
+                            cultural and architectural heritage./p>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="col s12 m4">
+                <div class="card small">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="travel-images/bali.jpg">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">Bali<i
+                                class="material-icons right">more_vert</i></span>
+                        <p><a href="https://www.sadararesort.com/balinese-dish/" target="_blank">Balinese Dishes</a></p>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4" style="text-align: center;">"Bali: Indonesia’s
+                            Enchanting Island Paradise"<i class="material-icons right"></i></span>
+                        <p style="text-align: justify;">Bali, known as the "Island of the Gods," is a tropical paradise
+                            in Indonesia, famed for its stunning beaches, lush rice terraces, and rich cultural
+                            heritage. Visitors flock to Bali for its vibrant arts scene, ancient temples like Uluwatu
+                            and Tanah Lot, and relaxing resorts set against picturesque landscapes.
+                        </p>
+                        <p style="text-align: justify;">The island offers something for everyone, from surfing on its
+                            world-class beaches to exploring sacred sites, vibrant markets, and traditional dance
+                            performances. Bali’s welcoming atmosphere, spiritual energy, and natural beauty make it a
+                            top destination for travelers seeking adventure, culture, or simply a serene getaway in
+                            paradise.</p>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="col s12 m4">
+                <div class="card small">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="travel-images/Jakarta.webp">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">Jakarta<i
+                                class="material-icons right">more_vert</i></span>
+                        <p><a href="https://www.indonesia.travel/in/en/trip-ideas/explore-jakarta-s-street-food.html"
+                                target="_blank">Street Foods</a></p>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4" style="text-align: center;">"Jakarta: The
+                            Bustling Heart of Indonesia"<i class="material-icons right"></i></span>
+                        <p style="text-align: justify;">Jakarta, the capital of Indonesia, is a dynamic and diverse
+                            metropolis that blends modernity with rich cultural heritage. As the largest city in the
+                            country, Jakarta is known for its vibrant economy, lively markets, and bustling streets. The
+                            city is a melting pot of cultures, with influences from Javanese, Sundanese, Chinese, and
+                            Dutch traditions.
+                        </p>
+                        <p style="text-align: justify;">Key attractions include the National Monument (Monas), the
+                            historic Kota Tua district, and the modern shopping malls of Central Jakarta. Jakarta is
+                            also famous for its thriving culinary scene, offering an array of traditional Indonesian
+                            dishes. A bustling hub of business, culture, and history, Jakarta is a fascinating
+                            destination for travelers seeking a blend of urban energy and historical charm.</p>
+                    </div>
+
+
+                </div>
+            </div>
+
+            <div class="row">
+                <!-- Left Column: Image Card -->
+                <div class="col s12 m4">
+                    <div class="card small">
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <img class="activator" src="travel-images/lake-toba.png">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title activator grey-text text-darken-4">Lake Toba<i
+                                    class="material-icons right">more_vert</i></span>
+                            <p><a href="https://www.indonesia.travel/ph/en/trip-ideas/7-local-food-s-around-lake-toba-that-you-should-not-miss.html"
+                                    target="_blank">7 Local Foods</a></p>
+                        </div>
+                        <div class="card-reveal">
+                            <span class="card-title grey-text text-darken-4" style="text-align: center;">"Lake Toba: A
+                                Majestic Crater Lake in Indonesia"<i class="material-icons right"></i></span>
+                            <p style="text-align: justify;">Lake Toba, located in North Sumatra, Indonesia, is the
+                                largest volcanic lake in the world and one of Southeast Asia's most breathtaking natural
+                                wonders. Formed by a massive volcanic eruption over 70,000 years ago, the lake is
+                                surrounded by towering mountains and lush forests, creating a serene and stunning
+                                landscape. </p>
+                            <p style="text-align: justify;">The lake's centerpiece is Samosir Island, a cultural hub
+                                home to the Batak people, where visitors can explore traditional villages, ancient
+                                tombs, and scenic viewpoints. Lake Toba offers a peaceful retreat with opportunities for
+                                boating, hiking, and swimming, making it a must-visit destination for nature lovers and
+                                those seeking tranquility.</p>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col s12 m4">
+                    <div class="card small">
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <img class="activator" src="travel-images/Komodo National Park.jpeg">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title activator grey-text text-darken-4">Komodo National Park<i
+                                    class="material-icons right">more_vert</i></span>
+                            <p><a href="https://www.tripadvisor.com.ph/Restaurant_Review-g325592-d15612430-Reviews-The_Oase_Komodo-Komodo_National_Park_Komodo_East_Nusa_Tenggara.html"
+                                    target="_blank">The Oase @Komodo</a></p>
+                        </div>
+                        <div class="card-reveal">
+                            <span class="card-title grey-text text-darken-4" style="text-align: center;">"Komodo
+                                National Park: Home of the Legendary Dragons"<i class="material-icons right"></i></span>
+                            <p style="text-align: justify;">Komodo National Park, located in Indonesia, is a UNESCO
+                                World Heritage Site renowned for its unique wildlife, including the famous Komodo
+                                dragons— the largest living lizards on Earth. The park, which covers the islands of
+                                Komodo, Rinca, and Padar, is also a haven for diverse marine life, making it a popular
+                                destination for diving and snorkeling. </p>
+                            <p style="text-align: justify;">Visitors can explore rugged landscapes, trek through the
+                                islands to spot the dragons in their natural habitat, and enjoy pristine beaches. With
+                                its dramatic scenery and rich biodiversity, Komodo National Park is a must-visit for
+                                nature lovers and adventure seekers.
+
+                            </p>
+                        </div>
+
+
+                    </div>
+                </div>
+
+                <div class="col s12 m4">
+                    <div class="card small">
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <img class="activator" src="travel-images/Gili Islands.jpg">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title activator grey-text text-darken-4">Gili Islands<i
+                                    class="material-icons right">more_vert</i></span>
+                            <p><a href="https://www.tripadvisor.com.ph/Restaurants-g664667-c10690-Gili_Air_Gili_Islands_Pemenang_Lombok_West_Nusa_Tenggara.html"
+                                    target="_blank">Best Indonesian Food</a></p>
+                        </div>
+                        <div class="card-reveal">
+                            <span class="card-title grey-text text-darken-4" style="text-align: center;">"Gili Islands:
+                                A Tropical Escape in Indonesia"<i class="material-icons right"></i></span>
+                            <p style="text-align: justify;">The Gili Islands, located off the coast of Lombok,
+                                Indonesia, are a paradise for beach lovers and adventure seekers. Comprising Gili
+                                Trawangan, Gili Meno, and Gili Air, these islands offer crystal-clear waters, vibrant
+                                coral reefs, and a laid-back atmosphere. Gili Trawangan is known for its lively
+                                nightlife and water sports, while Gili Meno offers a more tranquil, romantic escape.
+                                Gili Air strikes a perfect balance with its peaceful surroundings and local charm.</p>
+                            <p style="text-align: justify;">Visitors can enjoy activities like snorkeling, diving,
+                                cycling, and exploring the islands’ unique lack of motorized vehicles. The Gili Islands
+                                are a perfect destination for those seeking relaxation, adventure, and natural beauty in
+                                a serene island setting.</p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="center container">
+                <a class="waves-effect waves-light btn-large" id="book-btn" href="book-now.html">
+                    <i class="material-icons right">flight</i>
+                    Book your travel now
+                </a>
+            </div>
+        </div>
+
+        <!-- jQuery and Materialize JavaScript -->
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+        <!-- Initialize Materialize Components -->
+        <script>
+            $(document).ready(function () {
+                // Initialize slider
+                $('.slider').slider({
+                    height: 300, // Adjust height
+                    indicators: true, // Show indicators
+                    interval: 4000 // Time between transitions
+                });
+            });
+        </script>
+</body>
+
+</html>

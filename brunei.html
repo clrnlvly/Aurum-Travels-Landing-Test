@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AurumParadise</title>
+
+    <!-- Material Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!-- Materialize CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <!-- Custom CSS -->
+    <style>
+        h1 {
+            margin-top: 0;
+            font-weight: 700;
+            padding-top: 20px;
+        }
+
+        .php {
+            background: url('./travel-images/brunei-flag.jpg') center/cover no-repeat;
+            height: 1000px;
+            /* Full height of the viewport */
+            position: relative;
+        }
+
+        .php::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: url('./travel-images/brunei-flag.jpg') center/cover no-repeat;
+            /* Apply the same background image */
+            filter: blur(20px);
+            /* Apply blur to the background image */
+            z-index: -1;
+            /* Ensure the blur is behind content */
+        }
+
+        /* Styles inside the media query */
+        @media screen and (max-width: 768px) {
+
+            /* Override styles for smaller screens */
+            .php h1 {
+                color: black !important;
+                padding-top: 0px !important;
+            }
+
+            .php {
+                background: none !important;
+                height: auto !important;
+                /* Adjust height for mobile view */
+            }
+
+            .php::after {
+                background: none !important;
+            }
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="php">
+        <br>
+        <br>
+        <h1 class="center white-text">Brunei</h1>
+        <br>
+        <br>
+        <!-- Main Row -->
+        <div class="row container">
+            <!-- Left Column: Image Card -->
+            <div class="col s12 m4">
+                <div class="card small">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="travel-images/Istana Nurul Iman.jpg">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">Istana Nurul Iman<i
+                                class="material-icons right">more_vert</i></span>
+                        <p><a href="https://peggyinwanderland.wordpress.com/2019/06/10/a-joyous-feast-at-istana-nurul-iman/"
+                                target="_blank">Joyous Feast in the Palace</a></p>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4" style="text-align: center;">"Istana Nurul Iman:
+                            The Grand Palace of Brunei"<i class="material-icons right"></i></span>
+                        <p style="text-align: justify;">Istana Nurul Iman, located in Bandar Seri Begawan, is the
+                            official residence of the Sultan of Brunei and holds the title of the largest residential
+                            palace in the world. This architectural marvel features a stunning fusion of traditional
+                            Malay and Islamic design, with golden domes, intricate details, and over 1,700 rooms. </p>
+                        <p style="text-align: justify;">The palace serves as the administrative center of the Brunei
+                            government and a venue for royal ceremonies. While the palace is not open to the public
+                            year-round, visitors can catch a glimpse of its grandeur during the annual Hari Raya
+                            celebrations, when it opens for a few days to welcome guests. Istana Nurul Iman is a symbol
+                            of Brunei’s opulence, culture, and royal heritage.
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="col s12 m4">
+                <div class="card small">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="travel-images/Kampong Ayer.jpg">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">Kampong Ayer<i
+                                class="material-icons right">more_vert</i></span>
+                        <p><a href="https://www.tripadvisor.com.ph/RestaurantsNear-g293938-d541841-oa150-Kampong_Ayer_Venice_of_East-Bandar_Seri_Begawan_Brunei_Muara_District.html"
+                                target="_blank">Top 10 Restaurants</a></p>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4" style="text-align: center;">"Kampong Ayer: The
+                            Venice of the East"<i class="material-icons right"></i></span>
+                        <p style="text-align: justify;">Kampong Ayer, located in Bandar Seri Begawan, Brunei, is a
+                            unique water village and one of the world's largest settlements on stilts. With a history
+                            spanning over 1,000 years, this vibrant community is home to around 10,000 residents living
+                            in traditional wooden houses interconnected by a network of wooden walkways and bridges.
+                        </p>
+                        <p style="text-align: justify;">Visitors can explore the village by boat, experiencing its
+                            schools, mosques, shops, and cultural centers, all built above the Brunei River. Known as
+                            the "Venice of the East," Kampong Ayer offers a glimpse into Brunei’s heritage and the
+                            harmonious coexistence of modernity and tradition in this thriving water-based community.
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="col s12 m4">
+                <div class="card small">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="travel-images/Gadong Night market.webp">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">Gadong Night Market<i
+                                class="material-icons right">more_vert</i></span>
+                        <p><a href="https://trvlguides.com/articles/gadong-night-market" target="_blank">Foods Finds</a>
+                        </p>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4" style="text-align: center;">"Gadong Night
+                            Market: A Culinary Delight in Brunei"<i class="material-icons right"></i></span>
+                        <p style="text-align: justify;">The Gadong Night Market, located in Bandar Seri Begawan, is a
+                            bustling hub of local culture and flavors, offering a vibrant experience for food lovers and
+                            visitors. Open every evening, the market features a wide array of street food stalls serving
+                            traditional Bruneian dishes, including nasi katok, satay, grilled seafood, and sweet treats
+                            like kuih.
+                        </p>
+                        <p style="text-align: justify;">Affordable and lively, the market provides a glimpse into
+                            Brunei’s culinary heritage while offering a casual and welcoming atmosphere. Beyond food,
+                            the market is a gathering spot for locals and tourists alike, making it a perfect place to
+                            enjoy the flavors, sights, and sounds of Brunei’s nightlife.</p>
+                    </div>
+
+
+                </div>
+            </div>
+
+            <div class="row">
+                <!-- Left Column: Image Card -->
+                <div class="col s12 m4">
+                    <div class="card small">
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <img class="activator" src="travel-images/royal-regalia-museum.jpg">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title activator grey-text text-darken-4">Royal Regalia Museum<i
+                                    class="material-icons right">more_vert</i></span>
+                            <p><a href="https://www.tripadvisor.com/RestaurantsNear-g293938-d455627-Royal_Regalia_Museum-Bandar_Seri_Begawan_Brunei_Muara_District.html"
+                                    target="_blank">Near Restaurants</a></p>
+                        </div>
+                        <div class="card-reveal">
+                            <span class="card-title grey-text text-darken-4" style="text-align: center;">"Royal Regalia
+                                Museum: A Tribute to Brunei's Monarchy"<i class="material-icons right"></i></span>
+                            <p style="text-align: justify;">The Royal Regalia Museum, located in Bandar Seri Begawan, is
+                                a stunning repository dedicated to the history and achievements of Brunei’s royal
+                                family. This iconic museum showcases an impressive collection of royal artifacts,
+                                including ceremonial attire, gilded chariots, and replicas of the royal throne. Visitors
+                                can explore exhibits detailing the life and reign of Sultan Hassanal Bolkiah, the
+                                world’s longest-serving current monarch. </p>
+                            <p style="text-align: justify;">Highlights include the lavishly decorated coronation
+                                displays and gifts from world leaders. The museum’s striking design, blending modernity
+                                with traditional motifs, offers a fascinating insight into Brunei’s monarchy and its
+                                cultural heritage, making it a must-visit for history enthusiasts.
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col s12 m4">
+                    <div class="card small">
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <img class="activator" src="travel-images/Ulu Temburong National Park.jpg">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title activator grey-text text-darken-4">Ulu Temburong Park<i
+                                    class="material-icons right">more_vert</i></span>
+                            <p><a href="https://www.stockfood.com/images/13771744-Local-Food-Served-At-Ulu-Temburong-National-Park-Resort-Brunei#"
+                                    target="_blank">Local Food</a></p>
+                        </div>
+                        <div class="card-reveal">
+                            <span class="card-title grey-text text-darken-4" style="text-align: center;">"Ulu Temburong
+                                National Park: Brunei’s Pristine Green Jewel"<i class="material-icons right"></i></span>
+                            <p style="text-align: justify;">Ulu Temburong National Park, located in the Temburong
+                                District of Brunei, is a breathtaking showcase of unspoiled rainforest and biodiversity.
+                                Often called the "Green Jewel of Brunei," this park spans over 50,000 hectares of
+                                primary rainforest and offers visitors a glimpse into a pristine ecosystem. Highlights
+                                include the iconic Canopy Walkway, which provides stunning panoramic views of the
+                                treetops and surrounding forest. </p>
+                            <p style="text-align: justify;"> Visitors can explore the park through guided tours, jungle
+                                treks, river cruises, and activities like waterfall swimming. With its tranquil
+                                atmosphere and lush greenery, Ulu Temburong is a must-visit destination for nature
+                                lovers and eco-tourists seeking an immersive rainforest experience.</p>
+                        </div>
+
+
+                    </div>
+                </div>
+
+                <div class="col s12 m4">
+                    <div class="card small">
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <img class="activator" src="travel-images/pantai-seri-kenangan.jpg">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title activator grey-text text-darken-4">Pantai Seri Kenangan<i
+                                    class="material-icons right">more_vert</i></span>
+                            <p><a href="https://www.instagram.com/fishermanhut.bn/?hl=en" target="_blank">The
+                                    Fisherman's Hut</a></p>
+                        </div>
+                        <div class="card-reveal">
+                            <span class="card-title grey-text text-darken-4" style="text-align: center;">"Pantai Seri
+                                Kenangan: A Serene Beachside Escape in Brunei"<i
+                                    class="material-icons right"></i></span>
+                            <p style="text-align: justify;">Pantai Seri Kenangan, meaning "Beach of Beautiful Memories,"
+                                is a picturesque coastal destination located in Tutong District, Brunei. Known for its
+                                golden sands and calm waters, the beach offers a peaceful retreat for relaxation and
+                                leisure. Unique for its proximity to the South China Sea on one side and the Tutong
+                                River on the other, it creates a captivating double waterfront view.</p>
+                            <p style="text-align: justify;">Visitors can enjoy picnics, sunset strolls, and fishing, or
+                                simply soak in the tranquil ambiance. A favorite among locals and tourists alike, Pantai
+                                Seri Kenangan lives up to its name, leaving visitors with unforgettable memories of
+                                Brunei’s natural beauty.</p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="center container">
+                <a class="waves-effect waves-light btn-large" id="book-btn" href="book-now.html">
+                    <i class="material-icons right">flight</i>
+                    Book your travel now
+                </a>
+            </div>
+        </div>
+
+
+        <script>document.addEventListener('DOMContentLoaded', function () {
+                var bookButton = document.getElementById('book-btn');
+                bookButton.addEventListener('click', function () {
+                    window.location.href = 'book-now.html';
+                });
+            });
+        </script>
+        <!-- jQuery and Materialize JavaScript -->
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+        <!-- Initialize Materialize Components -->
+        <script>
+            $(document).ready(function () {
+                // Initialize slider
+                $('.slider').slider({
+                    height: 300, // Adjust height
+                    indicators: true, // Show indicators
+                    interval: 4000 // Time between transitions
+                });
+            });
+        </script>
+</body>
+
+</html>

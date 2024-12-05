@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AurumParadise</title>
+
+    <!-- Material Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!-- Materialize CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <!-- Custom CSS -->
+    <style>
+        h1 {
+            margin-top: 0;
+            font-weight: 700;
+            padding-top: 20px;
+        }
+
+        .php {
+            background: url('./travel-images/malaysia-flag.jpg') center/cover no-repeat;
+            height: 1000px;
+            /* Full height of the viewport */
+            position: relative;
+        }
+
+        .php::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: url('./travel-images/malaysia-flag.jpg') center/cover no-repeat;
+            /* Apply the same background image */
+            filter: blur(20px);
+            /* Apply blur to the background image */
+            z-index: -1;
+            /* Ensure the blur is behind content */
+        }
+
+        /* Styles inside the media query */
+        @media screen and (max-width: 768px) {
+
+            /* Override styles for smaller screens */
+            .php h1 {
+                color: black !important;
+                padding-top: 0px !important;
+            }
+
+            .php {
+                background: none !important;
+                height: auto !important;
+                /* Adjust height for mobile view */
+            }
+
+            .php::after {
+                background: none !important;
+            }
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="php">
+        <br>
+        <br>
+        <h1 class="center white-text">Malaysia</h1>
+        <br>
+        <br>
+        <!-- Main Row -->
+        <div class="row container">
+            <!-- Left Column: Image Card -->
+            <div class="col s12 m4">
+                <div class="card small">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="travel-images/Petronas Twin Towers.jpg">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">Petronas Twin Towers<i
+                                class="material-icons right">more_vert</i></span>
+                        <p><a href="https://www.kuala-lumpur-tickets.com/petronas-twin-towers/restaurants/"
+                                target="_blank">Near Restaurants</a></p>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4" style="text-align: center;">"Petronas Twin
+                            Towers: A Majestic Symbol of Malaysia"<i class="material-icons right"></i></span>
+                        <p style="text-align: justify;">The Petronas Twin Towers, located in the heart of Kuala Lumpur,
+                            are an iconic symbol of Malaysia's modernity and progress. Standing at 452 meters tall,
+                            these are the tallest twin towers in the world, offering breathtaking views of the city from
+                            the Skybridge and Observation Deck. Designed by architect César Pelli, the towers blend
+                            Islamic-inspired architecture with modern engineering, featuring a stunning glass and steel
+                            façade. </p>
+                        <p style="text-align: justify;">Visitors can explore the surrounding KLCC Park, enjoy shopping
+                            at the Suria KLCC Mall, or experience fine dining at high altitudes. The Petronas Twin
+                            Towers remain a remarkable testament to Malaysia’s ambition and architectural prowess.</p>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="col s12 m4">
+                <div class="card small">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="travel-images/George Town.jpg">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">George Town <i
+                                class="material-icons right">more_vert</i></span>
+                        <p><a href="https://www.tunehotels.com/blog/10-best-street-food-in-george-town-penang-every-foodie-must-try-recommended-by-tune-hotels/"
+                                target="_blank">Street Food</a></p>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4" style="text-align: center;">"George Town: A
+                            Heritage Gem in Malaysia"<i class="material-icons right"></i></span>
+                        <p style="text-align: justify;">George Town, the capital city of Penang, Malaysia, is a UNESCO
+                            World Heritage Site renowned for its rich cultural history, colonial architecture, and
+                            vibrant street art. This charming city is a blend of old-world charm and modernity, with its
+                            heritage buildings, temples, and mosques sitting alongside contemporary cafes, galleries,
+                            and boutiques.
+                        </p>
+                        <p style="text-align: justify;">Known for its eclectic mix of cultural influences, George Town
+                            offers a culinary adventure with its famous street food, such as char kway teow and penang
+                            laksa. The city’s lively atmosphere, fascinating history, and artistic spirit make George
+                            Town a must-visit destination for culture and history enthusiasts.</p>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="col s12 m4">
+                <div class="card small">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="travel-images/Langkawi.jpg">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">Langkawi<i
+                                class="material-icons right">more_vert</i></span>
+                        <p><a href="https://www.agoda.com/travel-guides/malaysia/langkawi/savoring-langkawi-a-culinary-journey-through-top-10-must-try-local-dishes/"
+                                target="_blank">Local Dishes</a></p>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4" style="text-align: center;">"Langkawi: A
+                            Tropical Paradise in Malaysia"<i class="material-icons right"></i></span>
+                        <p style="text-align: justify;">Langkawi, an archipelago of 99 islands off the northwest coast
+                            of Malaysia, is a tropical paradise known for its pristine beaches, lush rainforests, and
+                            breathtaking landscapes. The island offers a perfect blend of natural beauty and adventure,
+                            with attractions like the Langkawi Sky Bridge, the Langkawi Cable Car, and the tranquil
+                            Pantai Cenang beach.
+                        </p>
+                        <p style="text-align: justify;">Visitors can explore diverse wildlife in the Langkawi Wildlife
+                            Park, relax at luxury resorts, or enjoy water sports such as snorkeling and diving.
+                            Langkawi’s combination of serene beauty, outdoor activities, and cultural experiences makes
+                            it a top destination for nature lovers and adventure seekers alike.</p>
+                    </div>
+
+
+                </div>
+            </div>
+
+            <div class="row">
+                <!-- Left Column: Image Card -->
+                <div class="col s12 m4">
+                    <div class="card small">
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <img class="activator" src="travel-images/Batu Caves.jpg">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title activator grey-text text-darken-4">Batu Caves<i
+                                    class="material-icons right">more_vert</i></span>
+                            <p><a href="https://www.yelp.com/search?find_desc=Food&find_loc=Batu+Caves%2C+Selangor%2C+Malaysia"
+                                    target="_blank">Best Food</a></p>
+                        </div>
+                        <div class="card-reveal">
+                            <span class="card-title grey-text text-darken-4" style="text-align: center;">"Batu Caves: A
+                                Sacred Marvel in Malaysia"<i class="material-icons right"></i></span>
+                            <p style="text-align: justify;">Batu Caves, located just outside Kuala Lumpur, is one of
+                                Malaysia’s most famous landmarks, known for its impressive limestone caves and Hindu
+                                shrines. The main cave, housed within a towering limestone hill, is dedicated to Lord
+                                Murugan and features a stunning golden statue of the deity standing 42.7 meters tall at
+                                the entrance. </p>
+                            <p style="text-align: justify;">Visitors climb 272 colorful steps to reach the cave temple,
+                                where they can explore intricate murals, statues, and religious artifacts. The Batu
+                                Caves also host the annual Thaipusam festival, attracting thousands of devotees. A
+                                harmonious blend of spirituality, natural beauty, and cultural significance, Batu Caves
+                                is a must-see destination for travelers.</p>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col s12 m4">
+                    <div class="card small">
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <img class="activator" src="travel-images/Kinabalu National Park.jpg">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title activator grey-text text-darken-4">Kinabalu National Park<i
+                                    class="material-icons right">more_vert</i></span>
+                            <p><a href="https://www.travelfish.org/eatandmeet/malaysia/sabah/sabah/kinabalu_park/eat"
+                                    target="_blank">Eat and Dirnk</a></p>
+                        </div>
+                        <div class="card-reveal">
+                            <span class="card-title grey-text text-darken-4" style="text-align: center;">"
+                                Kinabalu National Park: A Nature Lover's Paradise"<i
+                                    class="material-icons right"></i></span>
+                            <p style="text-align: justify;">Kinabalu National Park, located in the Malaysian state of
+                                Sabah on Borneo, is a UNESCO World Heritage Site and a haven for biodiversity and
+                                natural beauty. Home to Mount Kinabalu, the highest peak in Southeast Asia at 4,095
+                                meters, the park offers stunning landscapes, from tropical rainforests to alpine
+                                meadows. </p>
+                            <p style="text-align: justify;">It is a paradise for trekkers, nature enthusiasts, and
+                                scientists, with its rich flora and fauna, including rare orchids, endemic species, and
+                                unique wildlife. Visitors can enjoy activities like hiking, birdwatching, and exploring
+                                the park’s botanical gardens. Kinabalu National Park is an essential destination for
+                                those seeking adventure and serenity in Malaysia's breathtaking natural environment.</p>
+                        </div>
+
+
+                    </div>
+                </div>
+
+                <div class="col s12 m4">
+                    <div class="card small">
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <img class="activator" src="travel-images/Malacca City.jpg">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title activator grey-text text-darken-4">Malacca City<i
+                                    class="material-icons right">more_vert</i></span>
+                            <p><a href="https://www.zoytotheworld.com/blog/malaysia-malacca-food-trip-what-to-eat"
+                                    target="_blank">Eating With History</a></p>
+                        </div>
+                        <div class="card-reveal">
+                            <span class="card-title grey-text text-darken-4" style="text-align: center;">"Malacca City:
+                                A Historic Treasure of Malaysia"<i class="material-icons right"></i></span>
+                            <p style="text-align: justify;">Malacca City, a UNESCO World Heritage Site, is a captivating
+                                blend of history, culture, and architecture. Located on the west coast of Malaysia, this
+                                historic city was once a strategic trading port and a melting pot of various cultures,
+                                including Malay, Portuguese, Dutch, and British influences. </p>
+                            <p style="text-align: justify;">Visitors can explore iconic landmarks like the A Famosa
+                                fortress, St. Paul’s Hill, and the vibrant Jonker Street, known for its antique shops
+                                and street food. The city’s colonial-era buildings, colorful streets, and rich history
+                                make Malacca City a charming destination, offering a fascinating journey through
+                                Malaysia’s past and its diverse heritage.</p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="center container">
+                <a class="waves-effect waves-light btn-large" id="book-btn" href="book-now.html">
+                    <i class="material-icons right">flight</i>
+                    Book your travel now
+                </a>
+            </div>
+        </div>
+
+        <!-- jQuery and Materialize JavaScript -->
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+        <!-- Initialize Materialize Components -->
+</body>
+
+</html>

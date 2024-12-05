@@ -1,0 +1,29 @@
+.row {
+    margin-bottom: 0;
+}
+
+body {
+    background: url('./images/tarvel6.jpg') center/cover;
+    height: 100vh;
+    z-index: 1;
+    position: relative; 
+}
+
+.col {
+    margin-right: 20px;
+}
+
+p {
+    text-align: justify;
+    font-size: 16px;
+}
+
+h1 {
+    font-weight: 800;
+}
+
+footer {
+    background-color: #222;
+    color: white;
+    padding: 10px 0;
+}

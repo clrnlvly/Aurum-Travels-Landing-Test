@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AurumParadise</title>
+
+    <!-- Material Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!-- Materialize CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <!-- Custom CSS -->
+    <style>
+        h1 {
+            margin-top: 0;
+            font-weight: 700;
+            padding-top: 20px;
+        }
+
+        .php {
+            background: url('./travel-images/vietnam-flag.jpg') center/cover no-repeat;
+            height: 1000px;
+            /* Full height of the viewport */
+            position: relative;
+        }
+
+        .php::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: url('./travel-images/vietnam-flag.jpg') center/cover no-repeat;
+            /* Apply the same background image */
+            filter: blur(20px);
+            /* Apply blur to the background image */
+            z-index: -1;
+            /* Ensure the blur is behind content */
+        }
+
+        /* Styles inside the media query */
+        @media screen and (max-width: 768px) {
+
+            /* Override styles for smaller screens */
+            .php h1 {
+                color: black !important;
+                padding-top: 0px !important;
+            }
+
+            .php {
+                background: none !important;
+                height: auto !important;
+                /* Adjust height for mobile view */
+            }
+
+            .php::after {
+                background: none !important;
+            }
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="php">
+        <br>
+        <br>
+        <h1 class="center white-text">Vietnam</h1>
+        <br>
+        <br>
+        <!-- Main Row -->
+        <div class="row container">
+            <!-- Left Column: Image Card -->
+            <div class="col s12 m4">
+                <div class="card small">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="travel-images/Ha Long Bay.jpg">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">Ha Long Bay<i
+                                class="material-icons right">more_vert</i></span>
+                        <p><a href="https://www.rainforestcruises.com/guides/halong-bay-food" target="_blank">Must-Eat
+                                Local Dishes</a></p>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4" style="text-align: center;">"Ha Long Bay: A
+                            Natural Wonder of Vietnam"<i class="material-icons right"></i></span>
+                        <p style="text-align: justify;">Ha Long Bay, a UNESCO World Heritage Site located in
+                            northeastern Vietnam, is renowned for its breathtaking seascape of emerald waters and
+                            limestone karsts. The bay features over 1,600 islands and islets, many of which are
+                            uninhabited and covered in lush greenery, creating a surreal and otherworldly beauty.</p>
+                        <p style="text-align: justify;">Visitors can explore hidden caves, floating fishing villages,
+                            and secluded beaches, often by traditional junk boats or kayaks. Popular attractions include
+                            Sung Sot Cave, Titov Island, and the serene Lan Ha Bay. Ha Long Bay is a must-visit
+                            destination for its unique geological formations, tranquil ambiance, and unparalleled
+                            natural splendor.</p>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="col s12 m4">
+                <div class="card small">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="travel-images/Ho Chi Minh City.jpg">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">Ho Chi Minh City<i
+                                class="material-icons right">more_vert</i></span>
+                        <p><a href="https://www.adventuresofjellie.com/vietnam/food-of-ho-chi-minh"
+                                target="_blank">Taste of Urban</a></p>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4" style="text-align: center;">"Ho Chi Minh City:
+                            Vietnam’s Bustling Urban Heart"<i class="material-icons right"></i></span>
+                        <p style="text-align: justify;">Ho Chi Minh City, formerly known as Saigon, is Vietnam’s largest
+                            city and a dynamic hub of culture, history, and modernity. Located in the southern part of
+                            the country, the city boasts a vibrant mix of colonial architecture, bustling markets, and
+                            sleek skyscrapers. Key attractions include the War Remnants Museum, Notre-Dame Cathedral
+                            Basilica of Saigon, and the iconic Ben Thanh Market.
+                        </p>
+                        <p style="text-align: justify;">The city’s lively streets are filled with motorbikes, street
+                            food vendors, and coffee shops offering Vietnam’s famous brews. With its rich history,
+                            diverse cuisine, and energetic atmosphere, Ho Chi Minh City is a must-visit destination for
+                            experiencing the essence of modern Vietnam.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col s12 m4">
+                <div class="card small">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="travel-images/Hue.jpg">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">Hue<i
+                                class="material-icons right">more_vert</i></span>
+                        <p><a href="https://www.vietnamcoracle.com/hue-food-guide/" target="_blank">Food Guide</a></p>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4" style="text-align: center;">"Hue: Vietnam’s
+                            Ancient Imperial City"<i class="material-icons right"></i></span>
+                        <p style="text-align: justify;">Hue, located in central Vietnam, is a city steeped in history
+                            and culture, once serving as the imperial capital of the Nguyen Dynasty. Known for its
+                            well-preserved ancient architecture, Hue is home to the Imperial City, a UNESCO World
+                            Heritage Site, which houses royal palaces, temples, and ornate gates within its massive
+                            citadel.
+                        </p>
+                        <p style="text-align: justify;">Visitors can explore historical landmarks such as the Thien Mu
+                            Pagoda, the Tombs of the Emperors, and the ancient bridges over the Perfume River. Hue is
+                            also famous for its traditional cuisine, with dishes like bun bo Hue (spicy beef noodle
+                            soup) offering a taste of the city’s royal culinary heritage. With its blend of history,
+                            culture, and natural beauty, Hue is a captivating destination for travelers interested in
+                            Vietnam's rich past.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <!-- Left Column: Image Card -->
+                <div class="col s12 m4">
+                    <div class="card small">
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <img class="activator" src="travel-images/Hoi An.jpg">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title activator grey-text text-darken-4">Hoi An<i
+                                    class="material-icons right">more_vert</i></span>
+                            <p><a href="https://vinpearl.com/en/13-irresistible-hoi-ans-street-foods-that-will-awaken-your-taste-buds"
+                                    target="_blank">Street Foods to Try</a></p>
+                        </div>
+                        <div class="card-reveal">
+                            <span class="card-title grey-text text-darken-4" style="text-align: center;">"Hoi An: A
+                                Timeless Blend of History and Charm"<i class="material-icons right"></i></span>
+                            <p style="text-align: justify;">Hoi An, located in central Vietnam, is a beautifully
+                                preserved ancient town known for its unique fusion of cultures, including Vietnamese,
+                                Chinese, Japanese, and French influences. Its UNESCO World Heritage-listed Old Town is a
+                                maze of narrow streets lined with colorful buildings, traditional wooden houses, and
+                                ancient temples. </p>
+                            <p style="text-align: justify;"> The town is famous for its lantern-lit streets, especially
+                                during the Full Moon Festival, when the town is transformed into a glowing wonderland.
+                                Hoi An is also renowned for its delicious cuisine, including dishes like cao lau
+                                (noodles with pork) and fresh seafood. With its rich history, vibrant culture, and
+                                picturesque landscapes, Hoi An offers visitors a serene and enchanting experience.</p>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col s12 m4">
+                    <div class="card small">
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <img class="activator" src="travel-images/Sapa.jpg">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title activator grey-text text-darken-4">Sapa<i
+                                    class="material-icons right">more_vert</i></span>
+                            <p><a href="https://sapanomad.com/sapa-food/" target="_blank">Culinary Dishes</a></p>
+                        </div>
+                        <div class="card-reveal">
+                            <span class="card-title grey-text text-darken-4" style="text-align: center;">"Sapa:
+                                Vietnam’s Majestic Mountain Retreat"<i class="material-icons right"></i></span>
+                            <p style="text-align: justify;">Sapa, located in the northern highlands of Vietnam, is
+                                renowned for its stunning landscapes, terraced rice fields, and vibrant ethnic minority
+                                cultures. Nestled in the Hoàng Liên Son mountain range, the town offers breathtaking
+                                views of mist-covered peaks and valleys. Visitors can explore picturesque villages like
+                                Ta Phin and Cat Cat, where indigenous groups such as the H'mong and Tay people live,
+                                preserving their unique traditions and customs. </p>
+                            <p style="text-align: justify;">Sapa is also a popular destination for trekking, with trails
+                                leading through lush forests, rice paddies, and remote hilltop viewpoints. With its cool
+                                climate, stunning natural beauty, and rich cultural heritage, Sapa is a must-visit
+                                destination for nature lovers and those seeking an authentic Vietnamese experience.</p>
+                        </div>
+
+
+                    </div>
+                </div>
+
+                <div class="col s12 m4">
+                    <div class="card small">
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <img class="activator" src="travel-images/mekong.jpeg">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title activator grey-text text-darken-4">Mekong Delta<i
+                                    class="material-icons right">more_vert</i></span>
+                            <p><a href="https://www.rainforestcruises.com/guides/mekong-food" target="_blank">Delta and
+                                    Beyong Cuisine</a></p>
+                        </div>
+                        <div class="card-reveal">
+                            <span class="card-title grey-text text-darken-4" style="text-align: center;">"Mekong Delta:
+                                The Lush Waterways of Vietnam"<i class="material-icons right"></i></span>
+                            <p style="text-align: justify;">The Mekong Delta, located in southern Vietnam, is a vast
+                                network of rivers, canals, and islands that forms the heart of the country’s
+                                agricultural landscape. Known as the "Rice Bowl of Vietnam," this region is famous for
+                                its lush greenery, floating markets, traditional wooden boats, and picturesque villages.
+                            </p>
+                            <p style="text-align: justify;">Visitors can take boat tours through the winding waterways,
+                                visiting local farms, orchards, and small villages to experience life along the river.
+                                The floating markets, like Cai Rang, are vibrant hubs where locals trade goods from
+                                their boats, offering a unique cultural experience. With its tranquil atmosphere,
+                                natural beauty, and rich rural traditions, the Mekong Delta is a must-visit for those
+                                seeking to explore Vietnam’s rural heartlands.</p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="center container">
+                <a class="waves-effect waves-light btn-large" id="book-btn" href="book-now.html">
+                    <i class="material-icons right">flight</i>
+                    Book your travel now
+                </a>
+            </div>
+        </div>
+
+        <!-- jQuery and Materialize JavaScript -->
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+        <!-- Initialize Materialize Components -->
+        <script>
+            $(document).ready(function () {
+                // Initialize slider
+                $('.slider').slider({
+                    height: 300, // Adjust height
+                    indicators: true, // Show indicators
+                    interval: 4000 // Time between transitions
+                });
+            });
+        </script>
+</body>
+
+</html>

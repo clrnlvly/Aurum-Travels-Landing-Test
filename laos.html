@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AurumParadise</title>
+
+    <!-- Material Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!-- Materialize CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <!-- Custom CSS -->
+    <style>
+        h1 {
+            margin-top: 0;
+            font-weight: 700;
+            padding-top: 20px;
+        }
+
+        .php {
+            background: url('./travel-images/laos-flag.webp') center/cover no-repeat;
+            height: 1000px;
+            /* Full height of the viewport */
+            position: relative;
+        }
+
+        .php::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: url('./travel-images/laos-flag.webp') center/cover no-repeat;
+            /* Apply the same background image */
+            filter: blur(20px);
+            /* Apply blur to the background image */
+            z-index: -1;
+            /* Ensure the blur is behind content */
+        }
+
+        /* Styles inside the media query */
+        @media screen and (max-width: 768px) {
+
+            /* Override styles for smaller screens */
+            .php h1 {
+                color: black !important;
+                padding-top: 0px !important;
+            }
+
+            .php {
+                background: none !important;
+                height: auto !important;
+                /* Adjust height for mobile view */
+            }
+
+            .php::after {
+                background: none !important;
+            }
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="php">
+        <br>
+        <br>
+        <h1 class="center white-text">Laos</h1>
+        <br>
+        <br>
+        <!-- Main Row -->
+        <div class="row container">
+            <!-- Left Column: Image Card -->
+            <div class="col s12 m4">
+                <div class="card small">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="travel-images/Luang Prabang.jpg">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">Luang Prabang<i
+                                class="material-icons right">more_vert</i></span>
+                        <p><a href="https://www.fodors.com/world/asia/laos/places/luang-prabang/experiences/news/photos/14-streets-foods-you-need-to-try-in-luang-prabang"
+                                target="_blank">Best Things to Eat</a></p>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4" style="text-align: center;">"Luang Prabang: The
+                            Enchanting Jewel of Laos"<i class="material-icons right"></i></span>
+                        <p style="text-align: justify;">Luang Prabang, a UNESCO World Heritage Site in northern Laos, is
+                            a charming town known for its blend of traditional Lao culture, French colonial
+                            architecture, and stunning natural landscapes. Nestled at the confluence of the Mekong and
+                            Nam Khan rivers, Luang Prabang is home to beautiful Buddhist temples, such as the Wat Xieng
+                            Thong and the golden Wat Mai, which are some of the best examples of Lao religious
+                            architecture. </p>
+                        <p style="text-align: justify;">The town is famous for its morning alms-giving ceremony, where
+                            monks collect food offerings from locals, providing a serene cultural experience. Visitors
+                            can also explore the nearby Kuang Si Waterfalls, enjoy boat rides on the Mekong River, and
+                            discover local markets offering handmade goods and fresh produce. With its peaceful
+                            ambiance, rich heritage, and breathtaking surroundings, Luang Prabang offers an
+                            unforgettable cultural and natural experience.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col s12 m4">
+                <div class="card small">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="travel-images/Pha That Luang.jpg">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">Pha That Luang<i
+                                class="material-icons right">more_vert</i></span>
+                        <p><a href="https://travelsetu.com/guide/pha-that-luang-tourism/food-in-pha-that-luang"
+                                target="_blank">Famous Restaurants</a></p>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4" style="text-align: center;">"Pha That Luang:
+                            Laos' Iconic Golden Stupa"<i class="material-icons right"></i></span>
+                        <p style="text-align: justify;">Pha That Luang, located in Vientiane, is the most important
+                            national monument and symbol of Laos. This magnificent golden stupa is a significant
+                            Buddhist site, believed to house relics of the Buddha, and is a symbol of Lao sovereignty
+                            and religion. The structure’s towering height and vibrant golden color make it an
+                            awe-inspiring sight. Pha That Luang dates back to the 16th century and features a unique
+                            combination of traditional Lao and Khmer architectural styles.
+                        </p>
+                        <p style="text-align: justify;">The site is surrounded by peaceful courtyards and smaller
+                            stupas, making it a serene place for reflection and worship. Every year, Pha That Luang
+                            hosts the That Luang Festival, which attracts pilgrims and visitors from across the country.
+                            With its spiritual significance and architectural grandeur, Pha That Luang is a must-see
+                            landmark for anyone visiting Laos.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col s12 m4">
+                <div class="card small">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="travel-images/Wat Xieng Thong.jpg">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">Wat Xieng Thong<i
+                                class="material-icons right">more_vert</i></span>
+                        <p><a href="https://travelsetu.com/guide/wat-xieng-thong-tourism/food-in-wat-xieng-thong"
+                                target="_blank">Top 10 Dishes</a></p>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4" style="text-align: center;">"Wat Xieng Thong:
+                            The Spiritual Heart of Luang Prabang"<i class="material-icons right"></i></span>
+                        <p style="text-align: justify;">Wat Xieng Thong, located in Luang Prabang, Laos, is one of the
+                            most revered and beautiful Buddhist temples in the country. Built in 1560, it is a stunning
+                            example of traditional Lao architecture and an important spiritual site. The temple is known
+                            for its intricate designs, including gold and colored glass mosaics that depict scenes from
+                            Buddhist mythology.
+                        </p>
+                        <p style="text-align: justify;">Its roofs, which sweep dramatically downward, are iconic of Lao
+                            temple architecture. Wat Xieng Thong is surrounded by lush gardens and smaller structures,
+                            adding to the tranquil atmosphere. It holds significant cultural and religious importance,
+                            and visitors can explore its serene grounds while appreciating the history and craftsmanship
+                            that have made it a symbol of Lao heritage.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <!-- Left Column: Image Card -->
+                <div class="col s12 m4">
+                    <div class="card small">
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <img class="activator" src="travel-images/Arc de Triomphe – Patuxay.jpg">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title activator grey-text text-darken-4">Arc de Triomphe – Patuxay<i
+                                    class="material-icons right">more_vert</i></span>
+                            <p><a href="https://www.tripadvisor.com/Restaurants-g293950-Vientiane_Vientiane_Prefecture.html"
+                                    target="_blank">Where to Eat</a></p>
+                        </div>
+                        <div class="card-reveal">
+                            <span class="card-title grey-text text-darken-4" style="text-align: center;">"Arc de
+                                Triomphe – Patuxay: Vientiane’s Majestic Victory Monument"<i
+                                    class="material-icons right"></i></span>
+                            <p style="text-align: justify;">Patuxay, often referred to as the "Arc de Triomphe of
+                                Vientiane," is a monumental victory arch located in the capital of Laos. Built in the
+                                1960s, Patuxay was inspired by Paris’s Arc de Triomphe but incorporates traditional Lao
+                                architectural elements. The monument honors those who fought for independence from
+                                France and symbolizes the country’s strength and resilience. </p>
+                            <p style="text-align: justify;">Standing at 20 meters tall, it is adorned with intricate
+                                carvings and reliefs that represent Lao history and culture. Visitors can climb to the
+                                top for panoramic views of Vientiane, including the surrounding parks, temples, and the
+                                Mekong River. With its striking appearance and historical significance, Patuxay is a
+                                must-see landmark in Laos.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col s12 m4">
+                    <div class="card small">
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <img class="activator" src="travel-images/Buddha Park.jpg">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title activator grey-text text-darken-4">Buddha Park<i
+                                    class="material-icons right">more_vert</i></span>
+                            <p><a href="https://travelsetu.com/guide/buddha-park-vientiane-tourism/food-in-buddha-park-vientiane"
+                                    target="_blank">Dishes and Restaurants</a></p>
+                        </div>
+                        <div class="card-reveal">
+                            <span class="card-title grey-text text-darken-4" style="text-align: center;">"Buddha Park: A
+                                Mystical Sculpture Garden in Vientiane"<i class="material-icons right"></i></span>
+                            <p style="text-align: justify;">Buddha Park, or Xieng Khuan, is a unique and fascinating
+                                sculpture garden located about 25 kilometers southeast of Vientiane, Laos, near the
+                                Mekong River. The park is home to over 200 surreal and striking sculptures, including
+                                large depictions of the Buddha, Hindu gods, and mythological creatures. The park was
+                                created in 1958 by a local monk named Luang Pu Bunleua Sulilat, who combined elements of
+                                both Buddhism and Hinduism in his artistic vision. </p>
+                            <p style="text-align: justify;"> Among the park’s highlights is a giant reclining Buddha and
+                                a massive pumpkin-shaped structure, which visitors can climb to view the entire park and
+                                surrounding area. Buddha Park offers a peaceful, otherworldly experience, making it a
+                                must-visit for those seeking to explore Laos’ unique blend of culture, religion, and
+                                art.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col s12 m4">
+                    <div class="card small">
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <img class="activator" src="travel-images/Mount Phou Si.jpg">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title activator grey-text text-darken-4">Mount Phou Si<i
+                                    class="material-icons right">more_vert</i></span>
+                            <p><a href="https://www.tripadvisor.com/RestaurantsNear-g295415-d546038-Mount_Phousi-Luang_Prabang_Luang_Prabang_Province.html"
+                                    target="_blank">Eat Before the Peak</a></p>
+                        </div>
+                        <div class="card-reveal">
+                            <span class="card-title grey-text text-darken-4" style="text-align: center;">"Mount Phou Si:
+                                The Sacred Hill of Luang Prabang"<i class="material-icons right"></i></span>
+                            <p style="text-align: justify;">Mount Phou Si is a prominent hill located in the heart of
+                                Luang Prabang, Laos, offering a stunning panoramic view of the town, the Mekong River,
+                                and the surrounding landscape. Standing at 150 meters above the city, the hill is
+                                considered sacred and is home to several religious sites, including a stupa at its
+                                summit. </p>
+                            <p style="text-align: justify;"> Visitors can climb the 328 steps that lead to the top,
+                                passing through shaded areas and small shrines along the way. The summit is a peaceful
+                                spot to enjoy breathtaking views, especially at sunrise or sunset. Mount Phou Si is not
+                                only a popular tourist destination but also an important spiritual site for locals,
+                                making it a must-visit for both cultural and natural exploration in Luang Prabang.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="center container">
+                <a class="waves-effect waves-light btn-large" id="book-btn" href="book-now.html">
+                    <i class="material-icons right">flight</i>
+                    Book your travel now
+                </a>
+            </div>
+        </div>
+
+        <!-- jQuery and Materialize JavaScript -->
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+        <!-- Initialize Materialize Components -->
+        <script>
+            $(document).ready(function () {
+                // Initialize slider
+                $('.slider').slider({
+                    height: 300, // Adjust height
+                    indicators: true, // Show indicators
+                    interval: 4000 // Time between transitions
+                });
+            });
+        </script>
+</body>
+
+</html>

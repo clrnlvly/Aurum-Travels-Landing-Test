@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Month Selector with Images</title>
+    <!-- Materialize CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" rel="stylesheet">
+    <!-- Materialize Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/c7d71f8165.js" crossorigin="anonymous"></script>
+
+    <!-- cdnjs font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+        integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+    <style>
+        .month-images {
+            display: none;
+        }
+
+        .month-images img {
+            width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav>
+        <div class="nav-wrapper black text-white">
+            <a href="#" class="brand-logo center amber-text text-lighten-1">"Calendar of Dreams: Plan Your Perfect Trip
+                by Month"</a>
+        </div>
+    </nav>
+
+    <!-- Parallax Section -->
+    <div class="parallax-container">
+        <div class="parallax"><img src="images/bg.avif" alt="Parallax Image"></div>
+    </div>
+
+    <!-- Content Section -->
+    <div class="container section">
+        <h4 class="center-align">Select a Month</h4>
+        <div class="input-field">
+            <input type="text" class="datepicker" id="monthPicker" placeholder="Choose a Month">
+        </div>
+        <button class="btn waves-effect waves-light amber black-text" id="showImages">Show Images</button>
+
+
+        <!-- Images for Each Month -->
+        <div id="monthImagesContainer">
+            <div id="January" class="month-images">
+                <div class="container">
+                    <br>
+                    <h3 class="center amber white-text">January: Philippines</h3>
+                    <br>
+                    <div class="divider"></div>
+                    <p><strong>Why: </strong>The dry season is perfect for island hopping and exploring natural wonders.
+                    </p>
+                    <p><strong>Must-Visit: </strong>Palawan’s <strong>El Nido</strong> and <strong>Coron</strong> for
+                        stunning lagoons, Cebu for the <strong>Sinulog Festival</strong>, and Baguio for cooler weather.
+                    </p>
+                    <p><strong>Unique Activity: </strong>Dive into the world-famous <strong>Tubbataha Reef</strong>, a
+                        UNESCO World Heritage Site, if diving season starts early.</p>
+                </div>
+
+
+                <div class="container">
+                    <img src="/images/ph_mb1.jpeg" alt="" class="materialboxed responsive-img"
+                        data-caption="Start the year with paradise views in El Nido’s breathtaking lagoons.">
+                    <img src="/images/ph_mb2.jpg" alt="" class="materialboxed responsive-img"
+                        data-caption="Feel the rhythm of the Philippines with the vibrant Ati-Atihan Festival!" Picture:
+                        Taal Volcano in Batangas.>
+                    <img src="/images/ph_mb3.jpg" alt="" class="materialboxed responsive-img"
+                        data-caption="Hike to stunning views at the world’s smallest active volcano.">
+                </div>
+            </div>
+
+            <div id="February" class="month-images">
+                <div class="container">
+                    <br>
+                    <h3 class="center amber white-text">February: Vietnam</h3>
+                    <br>
+                    <div class="divider"></div>
+                    <p><strong>Why: </strong>February offers mild weather and cultural richness during
+                        <strong>Tet</strong>, the Vietnamese Lunar New Year.
+                    </p>
+                    <p><strong>Must-Visit: </strong>Hanoi’s Old Quarter, <strong>Halong Bay</strong> for cruises, and
+                        Hoi An for
+                        its lantern-lit
+                        streets during Tet.</p>
+                    <p><strong>Unique Activity: </strong>Trek the <strong>Sapa rice terraces</strong> or take a scenic
+                        motorbike
+                        ride along the
+                        <strong> Hai Van Pass</strong>.
+                    </p>
+                </div>
+
+
+                <div class="container">
+                    <img src="/images/v_mb1.jpg" alt="" class="materialboxed responsive-img"
+                        data-caption="Cruise through the surreal beauty of Halong Bay’s emerald waters.">
+                    <img src="/images/v_mb2.jpg" alt="" class="materialboxed responsive-img"
+                        data-caption="Celebrate Tet amidst the magical glow of Hoi An’s lanterns.">
+                    <img src="/images/v_mb3.jpg" alt="" class="materialboxed responsive-img"
+                        data-caption="Experience the serene beauty of Sapa’s iconic landscapes.">
+                </div>
+            </div>
+
+            <div id="March" class="month-images">
+                <div class="container">
+                    <br>
+                    <h3 class="center amber white-text">March: Thailand</h3>
+                    <br>
+                    <div class="divider"></div>
+                    <p><strong>Why: </strong>Enjoy the warm, dry season for beaches and northern adventures.</p>
+                    <p><strong>Must-Visit: Chiang Mai</strong> for culture, Phuket for beaches, and Ayutthaya for
+                        history.</p>
+                    <p><strong>Unique Activity: </strong>Join a Thai cooking class or visit an elephant sanctuary for
+                        ethical wildlife experiences.</p>
+                </div>
+
+
+                <div class="container">
+                    <img src="/images/t_mb1.jpg" alt="" class="materialboxed responsive-img"
+                        data-caption="Discover the spiritual allure of Thailand’s unique temples.">
+                    <img src="/images/t_mb2.jpeg" alt="" class="materialboxed responsive-img"
+                        data-caption="Taste your way through Thailand’s flavorful street food.">
+                    <img src="/images/t_mb3.jpg" alt="" class="materialboxed responsive-img"
+                        data-caption="Soak in the sun on Krabi’s stunning tropical beaches.">
+                </div>
+            </div>
+
+            <div id="April" class="month-images">
+                <div class="container">
+                    <br>
+                    <h3 class="center amber white-text">April: Cambodia</h3>
+                    <br>
+                    <div class="divider"></div>
+                    <p><strong>Why: </strong>Celebrate <strong>Khmer New Year (Choul Chnam Thmey)</strong> in a vibrant
+                        atmosphere.</p>
+                    <p><strong>Must-Visit: Angkor Wat</strong> at sunrise, Phnom Penh’s Royal Palace, and the floating
+                        villages of Tonle Sap Lake.</p>
+                    <p><strong>Unique Activity: </strong>Participate in traditional Khmer games and water fights during
+                        the New Year celebrations.</p>
+                </div>
+
+
+                <div class="container">
+                    <img src="/images/cam_mb1.jpg" alt="" class="materialboxed responsive-img"
+                        data-caption="Witness a magical sunrise at the ancient wonder of Angkor Wat.">
+                    <img src="/images/cam_mb2.jpg" alt="" class="materialboxed responsive-img"
+                        data-caption="Dive into the festive spirit of Khmer New Year in April!">
+                    <img src="/images/cam_mb3.jpg" alt="" class="materialboxed responsive-img"
+                        data-caption="Explore Cambodia’s vibrant culture and history in Phnom Penh.">
+                </div>
+            </div>
+
+            <div id="May" class="month-images">
+                <div class="container">
+                    <br>
+                    <h3 class="center amber white-text">May: Malaysia</h3>
+                    <br>
+                    <div class="divider"></div>
+                    <p><strong>Why: </strong>Great weather for outdoor activities and exploring Malaysia’s diversity.
+                    </p>
+                    <p><strong>Must-Visit: Kota Kinabalu</strong> for trekking Mount Kinabalu, Penang for street food,
+                        and Langkawi for pristine beaches.</p>
+                    <p><strong>Unique Activity: </strong>Go for a canopy walk in the <strong>Danum Valley</strong>
+                        rainforest or spot turtles nesting in <strong>Terengganu</strong>.</p>
+                </div>
+
+
+                <div class="container">
+                    <img src="/images/m_mb1.jpg" alt="" class="materialboxed responsive-img"
+                        data-caption="Challenge yourself with a trek up Mount Kinabalu.">
+                    <img src="/images/m_mb2.jpg" alt="" class="materialboxed responsive-img"
+                        data-caption="Relax and recharge on Langkawi’s pristine shores.">
+                    <img src="/images/m_mb3.jpg" alt="" class="materialboxed responsive-img"
+                        data-caption="Discover the charm of Penang through its vibrant street art.">
+                </div>
+            </div>
+
+            <div id="June" class="month-images">
+                <div class="container">
+                    <br>
+                    <h3 class="center amber white-text">June: Indonesia</h3>
+                    <br>
+                    <div class="divider"></div>
+                    <p><strong>Why: </strong>The dry season is perfect for both beach relaxation and jungle trekking.
+                    </p>
+                    <p><strong>Must-Visit: </strong>Bali’s <strong>Ubud</strong> for culture, <strong>Nusa
+                            Penida</strong> for dramatic cliffs, and Komodo
+                        National Park to see the dragons.</p>
+                    <p><strong>Unique Activity: </strong>Witness the <strong>Mount Bromo</strong> sunrise or dive with
+                        manta rays in <strong>Nusa Lembongan</strong>.</p>
+                </div>
+
+
+                <div class="container">
+                    <img src="/images/indo_mb1.avif" alt="" class="materialboxed responsive-img"
+                        data-caption="Feel the spiritual vibes of Bali’s iconic temples.">
+                    <img src="/images/indo_mb2.jpg" alt="" class="materialboxed responsive-img"
+                        data-caption="Meet the legendary Komodo dragon in its natural habitat.">
+                    <img src="/images/indo_mb3.jpg" alt="" class="materialboxed responsive-img"
+                        data-caption="Catch the breathtaking sunrise over Mount Bromo’s volcanic crater.">
+                </div>
+            </div>
+
+            <div id="July" class="month-images">
+                <div class="container">
+                    <br>
+                    <h3 class="center amber white-text">July: Timor-Leste</h3>
+                    <br>
+                    <div class="divider"></div>
+                    <p><strong>Why: </strong>The weather is dry, making it perfect for outdoor adventures.</p>
+                    <p><strong>Must-Visit: Dili</strong> for its cultural sites, Atauro Island for diving, and Jaco
+                        Island for secluded beaches.</p>
+                    <p><strong>Unique Activity: </strong>Experience the pristine underwater world with some of the best
+                        coral reefs in the world.</p>
+                </div>
+
+
+                <div class="container">
+                    <img src="/images/tl_mb1.jpg" alt="" class="materialboxed responsive-img"
+                        data-caption="Dive into the untouched underwater paradise of Atauro Island.">
+                    <img src="/images/tl_mb2.jpg" alt="" class="materialboxed responsive-img"
+                        data-caption="Escape to the serenity of Timor-Leste’s hidden gem, Jaco Island.">
+                    <img src="/images/tl_mb3.jpg" alt="" class="materialboxed responsive-img"
+                        data-caption="Experience the rich cultural heritage of Timor-Leste.">
+                </div>
+            </div>
+
+            <div id="August" class="month-images">
+                <div class="container">
+                    <br>
+                    <h3 class="center amber white-text">August: Singapore</h3>
+                    <br>
+                    <div class="divider"></div>
+                    <p><strong>Why: </strong>The city’s vibrant energy is on full display during <strong>National Day
+                            (August 9th)</strong>.</p>
+                    <p><strong>Must-Visit: </strong>Marina Bay Sands, Gardens by the Bay, and Chinatown.</p>
+                    <p><strong>Unique Activity: </strong>Watch the spectacular <strong>National Day Parade</strong> and
+                        fireworks or try the Singapore Food Festival specials.</p>
+                </div>
+
+
+                <div class="container">
+                    <img src="/images/s_mb1.jpg" alt="" class="materialboxed responsive-img"
+                        data-caption="Marvel at Singapore’s futuristic skyline at Marina Bay Sands.">
+                    <img src="/images/s_mb2.jpg" alt="" class="materialboxed responsive-img"
+                        data-caption="Celebrate Singapore’s National Day with spectacular fireworks.">
+                    <img src="/images/s_mb3" alt="" class="materialboxed responsive-img"
+                        data-caption="Savor the world’s best street food in Singapore’s hawker centers.">
+                </div>
+            </div>
+
+            <div id="September" class="month-images">
+                <div class="container">
+                    <br>
+                    <h3 class="center amber white-text">September: Laos</h3>
+                    <br>
+                    <div class="divider"></div>
+                    <p><strong>Why: </strong>Lush green landscapes after the rainy season make it perfect for nature
+                        lovers.</p>
+                    <p><strong>Must-Visit: Luang Prabang</strong> for its temples, the <strong>Plain of Jars</strong>
+                        for history, and Vang Vieng for adventure.</p>
+                    <p><strong>Unique Activity: </strong>Cruise down the <strong>Mekong River</strong> or explore the
+                        hidden caves and waterfalls in the countryside.</p>
+                </div>
+
+
+                <div class="container">
+                    <img src="/images/l_mb1.jpg" alt="" class="materialboxed responsive-img"
+                        data-caption="Take a refreshing dip in Laos’ turquoise Kuang Si Falls.">
+                    <img src="/images/l_mb2.jpeg" alt="" class="materialboxed responsive-img"
+                        data-caption="Witness the spiritual side of Laos with its ancient traditions.">
+                    <img src="/images/l_mb3.jpg" alt="" class="materialboxed responsive-img"
+                        data-caption="Cruise the Mekong River and enjoy a serene sunset.">
+                </div>
+            </div>
+
+            <div id="October" class="month-images">
+                <div class="container">
+                    <br>
+                    <h3 class="center amber white-text">October: Brunei</h3>
+                    <br>
+                    <div class="divider"></div>
+                    <p><strong>Why: </strong>The dry weather is ideal for exploring cultural and natural landmarks.</p>
+                    <p><strong>Must-Visit: </strong>The stunning <strong>Omar Ali Saifuddien Mosque</strong> ,
+                        <strong>Kampong
+                            Ayer water village</strong>, and <strong>Ulu Temburong National Park</strong>.
+                    </p>
+                    <p><strong>Unique Activity: </strong>Take a canopy walk in the rainforest or visit the <strong>Royal
+                            Regalia Museum</strong> to learn about Brunei’s heritage.</p>
+                </div>
+
+
+                <div class="container">
+                    <img src="/images/b_mb1.jpg" alt="" class="materialboxed responsive-img"
+                        data-caption="Be enchanted by the golden glow of Brunei’s iconic mosque.">
+                    <img src="/images/b_mb2.jpg" alt="" class="materialboxed responsive-img"
+                        data-caption="Explore Brunei’s lush rainforests from above.">
+                    <img src="/images/b_mb3.jpg" alt="" class="materialboxed responsive-img"
+                        data-caption="Step back in time at the world’s largest water village.">
+                </div>
+            </div>
+
+            <div id="November" class="month-images">
+                <div class="container">
+                    <br>
+                    <h3 class="center amber white-text">November: Myanmar</h3>
+                    <br>
+                    <div class="divider"></div>
+                    <p><strong>Why: </strong>The cool and dry weather makes this month perfect for exploring the
+                        country’s iconic sites.</p>
+                    <p><strong>Must-Visit: Bagan</strong> for hot air balloon rides, Mandalay for its palaces, and Inle
+                        Lake for its stilt villages.</p>
+                    <p><strong>Unique Activity: </strong>Witness the famous leg-rowing fishermen on Inle Lake or visit
+                        the sacred <strong>Shwedagon Pagoda</strong> in Yangon.</p>
+                </div>
+
+
+                <div class="container">
+                    <img src="/images/my_mb1.jpg" alt="" class="materialboxed responsive-img"
+                        data-caption="Soar above the ancient temples of Bagan in a hot air balloon.">
+                    <img src="/images/my_mb2.jpg" alt="" class="materialboxed responsive-img"
+                        data-caption="Discover the unique traditions of Myanmar’s Inle Lake.">
+                    <img src="/images/my_mb3.jpg" alt="" class="materialboxed responsive-img"
+                        data-caption="Admire the golden grandeur of Myanmar’s most sacred pagoda.">
+                </div>
+            </div>
+
+            <div id="December" class="month-images">
+                <div class="container">
+                    <br>
+                    <h3 class="center amber white-text">December: Philippines</h3>
+                    <br>
+                    <div class="divider"></div>
+                    <p><strong>Why: </strong>The festive season is a cultural highlight, with Christmas being deeply
+                        celebrated across the country.</p>
+                    <p><strong>Must-Visit:</strong> Manila for colorful Christmas lights, Vigan for heritage charm, and
+                        Boracay for holiday beach vibes.</p>
+                    <p><strong>Unique Activity: </strong>Attend a <strong>Simbang Gabi</strong> (night mass) or enjoy
+                        local delicacies at festive markets.</p>
+                </div>
+
+
+                <div class="container">
+                    <img src="/images/pph_mb1.jpg" alt="" class="materialboxed responsive-img"
+                        data-caption="Feel the festive spirit with dazzling parols in the Philippines.">
+                    <img src="/images/pph_mb2.jpg" alt="" class="materialboxed responsive-img"
+                        data-caption="Unwind on Boracay’s world-famous beaches this holiday season.">
+                    <img src="/images/pph_mb3.jpg" alt="" class="materialboxed responsive-img"
+                        data-caption="Celebrate Christmas with Filipino traditions and warmth.">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Parallax Section -->
+    <div class="parallax-container">
+        <div class="parallax"><img src="images/bg.avif" alt="Parallax Image"></div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="page-footer black">
+
+        <div class="center container">
+            <a class="waves-effect waves-light amber black-text btn-large" id="back-home">
+                <i class="material-icons right">home</i>back
+            </a>
+
+        </div>
+        <div class="container">
+            <div class="center-align">
+                <p>&copy; 2024 Month Selector. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Materialize JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            // Initialize Materialize components
+            const elems = document.querySelectorAll('.parallax');
+            M.Parallax.init(elems);
+
+            const dateElems = document.querySelectorAll('.datepicker');
+            const instances = M.Datepicker.init(dateElems, {
+                format: 'mmmm', // Display only the month in the textbox
+                defaultDate: new Date(),
+                setDefaultDate: true,
+                autoClose: true,
+                onSelect: function (selectedDate) {
+                    // Get the month name from the selected date
+                    const monthName = selectedDate.toLocaleString('default', { month: 'long' });
+                    document.getElementById('monthPicker').value = monthName; // Set the textbox value to the month
+                    displayImages(monthName); // Show the images for the selected month
+                }
+            });
+
+            // Function to display images based on the selected month
+            const displayImages = (month) => {
+                // Hide all images
+                document.querySelectorAll('.month-images').forEach(imageDiv => {
+                    imageDiv.style.display = 'none';
+                });
+
+                // Show images for the selected month
+                const monthDiv = document.getElementById(month);
+                if (monthDiv) {
+                    monthDiv.style.display = 'block';
+                } else {
+                    alert('No images available for the selected month.');
+                }
+            };
+
+            // Add event listener to the button for manual selection
+            document.getElementById('showImages').addEventListener('click', () => {
+                const selectedMonth = document.getElementById('monthPicker').value;
+                displayImages(selectedMonth);
+            });
+        });
+
+        // Initialize materialbox
+        const elemsMaterialbox = document.querySelectorAll('.materialboxed');
+        M.Materialbox.init(elemsMaterialbox);
+    </script>
+
+    <script>document.addEventListener('DOMContentLoaded', function () {
+            // Add click event to the back button to go to index.html
+            var backButton = document.getElementById('back-home');
+            backButton.addEventListener('click', function () {
+                window.location.href = 'index.html'; // Redirect to index.html
+            });
+        });
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    /* Grey background */
+    font-family: Arial, sans-serif;
+}
+
+.carousel {
+    height: 400px;
+    width: 800px;
+    margin: 0 auto;
+}
+
+.carousel .carousel-item {
+    height: 100%;
+    width: 50%;
+}
+
+.carousel .carousel-item img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.image-overlay {
+    position: relative;
+}
+
+.image-overlay img {
+    width: 100%;
+    height: auto;
+}
+
+.overlay-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+    font-size: 50px;
+    font-weight: 400;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    text-align: center;
+    z-index: 2;
+}

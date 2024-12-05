@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AurumParadise</title>
+
+    <!-- Material Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!-- Materialize CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <!-- Custom CSS -->
+    <style>
+        h1 {
+            margin-top: 0;
+            font-weight: 700;
+            padding-top: 20px;
+        }
+
+        .php {
+            background: url('./travel-images/php-flag.jpg') center/cover no-repeat;
+            height: 1000px;
+            /* Full height of the viewport */
+            position: relative;
+        }
+
+        .php::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: url('./travel-images/php-flag.jpg') center/cover no-repeat;
+            /* Apply the same background image */
+            filter: blur(20px);
+            /* Apply blur to the background image */
+            z-index: -1;
+            /* Ensure the blur is behind content */
+        }
+
+        /* Styles inside the media query */
+        @media screen and (max-width: 768px) {
+
+            /* Override styles for smaller screens */
+            .php h1 {
+                color: black !important;
+                padding-top: 0px !important;
+            }
+
+            .php {
+                background: none !important;
+                height: auto !important;
+                /* Adjust height for mobile view */
+            }
+
+            .php::after {
+                background: none !important;
+            }
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="php">
+        <br>
+        <br>
+        <h1 class="center white-text">Philippines</h1>
+        <br>
+        <br>
+        <!-- Main Row -->
+        <div class="row container">
+            <!-- Left Column: Image Card -->
+            <div class="col s12 m4">
+                <div class="card small">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="travel-images/boracay.jpg">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">Boracay Island<i
+                                class="material-icons right">more_vert</i></span>
+                        <p><a href="https://www.klook.com/en-PH/blog/food-guide-boracay/" target="_blank">Foods You
+                                Can't Miss</a></p>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4" style="text-align: center;">"Boracay: The
+                            Island Paradise of White Sand Beaches"<i class="material-icons right"></i></span>
+                        <p style="text-align: justify;">Boracay Island, located in the Western Visayas region of the
+                            Philippines, is internationally
+                            renowned for its white-sand beaches, particularly the 4-kilometer stretch of White
+                            Beach,
+                            which is often considered one of the most beautiful in the world. The island offers a
+                            diverse range of activities, including water sports such as kite surfing, snorkeling,
+                            and
+                            scuba diving, as well as an active nightlife scene. </p>
+                        <p style="text-align: justify;">Boracay's tourism is supported by a
+                            well-developed infrastructure, offering a variety of accommodations, dining
+                            establishments,
+                            and leisure options. Its popularity has led to efforts in environmental preservation,
+                            including sustainability initiatives to maintain its natural beauty while accommodating
+                            growing visitor numbers.</p>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="col s12 m4">
+                <div class="card small">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="travel-images/palawan.jpg">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">Palawan<i
+                                class="material-icons right">more_vert</i></span>
+                        <p><a href="https://www.travel-palawan.com/food/must-try/" target="_blank">Must-Eat Dishes</a>
+                        </p>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4" style="text-align: center;">"Palawan: The
+                            Last
+                            Frontier of the Philippines"<i class="material-icons right"></i></span>
+                        <p style="text-align: justify;">Palawan, often dubbed the "Last Frontier" of the
+                            Philippines, is
+                            a breathtaking province
+                            known for its pristine natural beauty, crystal-clear waters, and diverse marine life.
+                            Home
+                            to UNESCO World Heritage Sites like the Puerto Princesa Underground River and Tubbataha
+                            Reefs Natural Park, Palawan offers a haven for nature lovers, divers, and adventure
+                            seekers.
+                        </p>
+                        <p style="text-align: justify;">The island is famous for its stunning beaches, lagoons, and
+                            limestone cliffs, particularly
+                            in destinations like El Nido and Coron. With its lush landscapes, vibrant coral reefs,
+                            and
+                            rich biodiversity, Palawan stands as one of the country’s most sought-after destinations
+                            for
+                            eco-tourism and exploration.</p>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="col s12 m4">
+                <div class="card small">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="travel-images/terreces.jpg">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">Banaue Rice Terraces<i
+                                class="material-icons right">more_vert</i></span>
+                        <p><a href="https://primer.com.ph/blog/2019/06/30/list-must-visit-food-spots-in-banaue/"
+                                target="_blank">Food Spots</a></p>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4" style="text-align: center;">"Banaue Rice
+                            Terraces: The Marvel of Ifugao's Ancient Engineering"<i
+                                class="material-icons right"></i></span>
+                        <p style="text-align: justify;">The Banaue Rice Terraces, located in the mountainous region
+                            of
+                            Ifugao in Northern Luzon, are
+                            a breathtaking testament to the ingenuity of ancient Filipino farmers. Often referred to
+                            as
+                            the "Eighth Wonder of the World," these terraces were carved into the mountains over
+                            2,000
+                            years ago by the Ifugao people, creating a stunning landscape of lush, green fields.
+                        </p>
+                        <p style="text-align: justify;">The
+                            terraces are still used for rice cultivation today, showcasing a unique blend of
+                            cultural
+                            heritage and sustainable farming practices. Recognized as a UNESCO World Heritage Site,
+                            the
+                            Banaue Rice Terraces offer visitors a glimpse into the rich history and traditional
+                            agricultural methods of the Philippines.</p>
+                    </div>
+
+
+                </div>
+            </div>
+
+            <div class="row">
+                <!-- Left Column: Image Card -->
+                <div class="col s12 m4">
+                    <div class="card small">
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <img class="activator" src="travel-images/hills.jpg">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title activator grey-text text-darken-4">Chocolate Hills<i
+                                    class="material-icons right">more_vert</i></span>
+                            <p><a href="https://blog.fast.com.ph/best-delicacies-in-bohol-must-try-dishes-and-pasalubongs/"
+                                    target="_blank">Dishes and Pasalubongs</a></p>
+                        </div>
+                        <div class="card-reveal">
+                            <span class="card-title grey-text text-darken-4" style="text-align: center;">"Chocolate
+                                Hills: The Geological Wonder of Bohol"<i class="material-icons right"></i></span>
+                            <p style="text-align: justify;">The Chocolate Hills, located in Bohol, Philippines, are a
+                                natural wonder consisting of
+                                over 1,000 unique, dome-shaped hills that turn brown during the dry season, giving them
+                                their "chocolate" appearance. This geological formation covers an area of approximately
+                                50 square kilometers and is one of the most iconic landmarks in the country. </p>
+                            <p style="text-align: justify;">The hills,
+                                which are made of limestone and coral, are a popular tourist destination, offering
+                                stunning panoramic views from viewing decks. Their distinct shape and landscape make the
+                                Chocolate Hills a must-see attraction for visitors seeking to experience the natural
+                                beauty of the Philippines.</p>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col s12 m4">
+                    <div class="card small">
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <img class="activator" src="travel-images/intramuros.jpg">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title activator grey-text text-darken-4">Intramuros, Manila<i
+                                    class="material-icons right">more_vert</i></span>
+                            <p><a href="https://travelsetu.com/guide/intramuros-tourism/food-in-intramuros"
+                                    target="_blank">Food Trip</a></p>
+                        </div>
+                        <div class="card-reveal">
+                            <span class="card-title grey-text text-darken-4" style="text-align: center;">"Intramuros:
+                                The Historic Walled City of
+                                Manila"<i class="material-icons right"></i></span>
+                            <p style="text-align: justify;">Intramuros, Manila, is the historic walled city that served
+                                as the heart of Spanish
+                                colonial rule in the Philippines. Established in the late 1500s, it is home to
+                                significant landmarks such as Fort Santiago, San Agustin Church, and the Manila
+                                Cathedral, showcasing Spanish-era architecture and cultural heritage. </p>
+                            <p style="text-align: justify;">Intramuros offers
+                                a glimpse into the country’s colonial past with cobblestone streets, centuries-old
+                                buildings, and museums that reflect the rich history of Manila. Today, it is a popular
+                                tourist destination, blending history, culture, and modernity, and offering visitors an
+                                immersive experience of the Philippines' colonial heritage.</p>
+                        </div>
+
+
+                    </div>
+                </div>
+
+                <div class="col s12 m4">
+                    <div class="card small">
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <img class="activator" src="travel-images/siargao.jpg">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title activator grey-text text-darken-4">Siargao Island<i
+                                    class="material-icons right">more_vert</i></span>
+                            <p><a href="https://travelingpetitegirl.com/top-10-foods-in-siargao/" target="_blank">Top 10
+                                    Foods</a></p>
+                        </div>
+                        <div class="card-reveal">
+                            <span class="card-title grey-text text-darken-4" style="text-align: center;">"Siargao
+                                Island: The Surfing Capital of the
+                                Philippines"<i class="material-icons right"></i></span>
+                            <p style="text-align: justify;">Siargao Island, located in the province of Surigao del
+                                Norte, is renowned as the Surfing
+                                Capital of the Philippines, offering world-class waves and stunning natural beauty.
+                                Famous for the iconic Cloud 9 surf break, Siargao has become a haven for surfers from
+                                around the globe. Beyond surfing, the island boasts pristine white sand beaches,
+                                turquoise lagoons, and hidden caves, making it a paradise for adventure seekers and
+                                nature lovers alike.</p>
+                            <p style="text-align: justify;">Notable attractions include the breathtaking Sugba Lagoon,
+                                the enchanting Magpupungko
+                                Rock Pools, and the picturesque Guyam and Naked Islands. Siargao’s vibrant local
+                                culture, laid-back vibe, and eco-tourism initiatives further enhance its charm. Today,
+                                it is a top destination for those seeking a blend of thrilling activities, serene
+                                escapes, and a deeper connection with nature.</p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="center container">
+                <a class="waves-effect waves-light btn-large" id="book-btn" href="book-now.html">
+                    <i class="material-icons right">flight</i>
+                    Book your travel now
+                </a>
+            </div>
+        </div>
+
+        <!-- jQuery and Materialize JavaScript -->
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+        <!-- Initialize Materialize Components -->
+        <script>
+            $(document).ready(function () {
+                // Initialize slider
+                $('.slider').slider({
+                    height: 300, // Adjust height
+                    indicators: true, // Show indicators
+                    interval: 4000 // Time between transitions
+                });
+            });
+        </script>
+</body>
+
+</html>

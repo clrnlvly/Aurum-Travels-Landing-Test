@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AurumParadise</title>
+
+    <!-- Material Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/c7d71f8165.js" crossorigin="anonymous"></script>
+
+    <!-- cdnjs font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+        integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Materialize CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="index.css">
+
+</head>
+
+<body class="black white-text">
+    <!-- Navbar -->
+    <div class="navbar-fixed">
+        <ul id="dropdown1" class="dropdown-content black">
+            <li><a href="#destinations">Destinations</a></li>
+            <li class="divider"></li>
+            <li><a href="#traveltips">Travel Tips</a></li>
+            <li class="divider"></li>
+            <li><a href="parallax.html">Gallery I</a></li>
+            <li class="divider"></li>
+            <li><a href="gallery.html">Gallery II</a></li>
+            <li class="divider"></li>
+            <li><a href="all_deli.html">Delicacies</a></li>
+            <li class="divider"></li>
+        </ul>
+
+        <nav class="black">
+            <div class="nav-wrapper container">
+                <a href="#!" class="brand-logo"><span class="amber-text text-lighten-1">Aurum</span>Travels</a>
+                <a href="#" data-target="mobile-view" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                <ul class="right hide-on-med-and-down">
+                    <li><a href="#home" class="active">Home</a></li>
+                    <li><a class="dropdown-trigger" href="#!" data-target="dropdown1">Explore<i
+                                class="material-icons right">arrow_drop_down</i></a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#contact">Contacts</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+    <ul class="sidenav black" id="mobile-view">
+        <li>
+            <div class="user-view">
+                <div class="background">
+                    <img src="images/office2.jpg">
+                </div>
+                <div class="flow-text center-align" style="font-weight: 600;">
+                    <span class="amber-text text-lighten-1">Aurum</span>Travels
+                </div>
+            </div>
+        </li>
+        <div class="divider"></div>
+        <li><a href="#home" class="white-text"><i class="fa-solid fa-house white-text"></i>Home</a></li>
+        <li><a href="#destinations" class="white-text"><i
+                    class="fa-solid fa-location-dot white-text"></i>Destinations</a></li>
+        <li><a href="#traveltips" class="white-text"><i class="fa-solid fa-circle-info white-text"></i>Travel Tips</a>
+        </li>
+        <li><a href="parallax.html" class="white-text"><i class="fa-solid fa-image white-text"></i>Gallery I</a></li>
+        <li><a href="gallery.html" class="white-text"><i class="fa-solid fa-image white-text"></i>Gallery II</a></li>
+        <li><a href="all_deli.html" class="white-text"><i class="fa-solid fa-utensils white-text"></i>SEA Delicacies</a>
+        </li>
+        <li><a href="#about" class="white-text"><i class="fa-solid fa-circle-question white-text"></i>About Us</a></li>
+        <li><a href="#contact" class="white-text"><i class="fa-solid fa-address-book white-text"></i>Contacts</a></li>
+    </ul>
+
+
+
+    <div class="home" id="home">
+        <div class="carousel carousel-slider">
+            <a class="carousel-item" href="#one!"><img src="images/travel8.jpg"></a>
+            <a class="carousel-item" href="#two!"><img src="images/travel2.jpg"></a>
+            <a class="carousel-item" href="#three!"><img src="images/travel3.jpg"></a>
+        </div>
+        <div class="home-content">
+            <h1>Where Every Journey Tastes Like <span class="amber-text text-lighten-1">Gold</span>.</h1>
+            <div class="button">
+                <a href="#destinations" class="waves-effect waves-light btn-large scroll-to amber black-text">
+                    <i class="material-icons left">travel_explore</i>Explore Southeast Asia
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="destinations" id="destinations">
+        <h2 class="center-align">Explore Southeast Asia</h2>
+        <br>
+        <ul class="pagination center">
+            <li class="waves-effect"><a href="#!" data-target="philippines"
+                    class="country-link white-text">Philippines</a></li>
+            <li class="waves-effect"><a href="#!" data-target="singapore" class="country-link white-text">Singapore</a>
+            </li>
+            <li class="waves-effect"><a href="#!" data-target="malaysia" class="country-link white-text">Malaysia</a>
+            </li>
+            <li class="waves-effect"><a href="#!" data-target="indonesia" class="country-link white-text">Indonesia</a>
+            </li>
+            <li class="waves-effect"><a href="#!" data-target="timor-leste"
+                    class="country-link white-text">Timor-Leste</a></li>
+            <li class="waves-effect"><a href="#!" data-target="brunei" class="country-link white-text">Brunei</a></li>
+            <li class="waves-effect"><a href="#!" data-target="vietnam" class="country-link white-text">Vietnam</a></li>
+            <li class="waves-effect"><a href="#!" data-target="thailand" class="country-link white-text">Thailand</a>
+            </li>
+            <li class="waves-effect"><a href="#!" data-target="myanmar" class="country-link white-text">Myanmar</a></li>
+            <li class="waves-effect"><a href="#!" data-target="laos" class="country-link white-text">Laos</a></li>
+            <li class="waves-effect"><a href="#!" data-target="cambodia" class="country-link white-text">Cambodia</a>
+            </li>
+        </ul>
+
+        <br><br><br><br>
+
+        <div class="country black-text">
+            <!-- Content for the countries will be loaded here -->
+        </div>
+
+        <div class="video">
+            <!-- Content for the videos will be loaded here -->
+        </div>
+    </div>
+
+    <div class="travel-tips " id="traveltips">
+        <br><br><br>
+        <h2 class=" container center-align white-text">Travel Tips and Hacks</h2>
+        <br>
+        <!-- <div class="card-panel">
+            <blockquote class="container blue-text text-darken-3" style="font-size: 20px;">Learn how to travel the world with these
+                practical and inspiring tips!</blockquote>
+        </div> -->
+
+
+        <br>
+
+        <div class="row container">
+            <div class="col s12 m6">
+                <div class="card-panel orange accent-1 z-depth-2">
+                    <div class="flow-text center-align black-text">TIPS</div>
+                    <br>
+                    <table class="striped black-text">
+                        <tbody>
+                            <tr>
+                                <td>1. Plan your first night down to the last detail.</td>
+                            </tr>
+                            <tr>
+                                <td>2. Photocopy your driver’s license, passport, visa, vaccination status (if
+                                    required), and other important documents.</td>
+                            </tr>
+                            <tr>
+                                <td>3. Buy all your adapters, SIM cards, and currency at home.</td>
+                            </tr>
+                            <tr>
+                                <td>4. Alert your credit cards and financial institutions that you will be traveling and
+                                    let them know your destination.</td>
+                            </tr>
+                            <tr>
+                                <td>5. Pack a travel journal.</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+            </div>
+
+            <div class="col s12 m6">
+                <div class="card-panel orange accent-1 z-depth-2">
+                    <div class="flow-text center-align black-text">HACKS</div>
+                    <br>
+                    <table class="striped black-text">
+                        <tbody>
+                            <tr>
+                                <td>1. Email a scanned copy of your passport to yourself so you have a backup in case it
+                                    gets lost or stolen during your travels.</td>
+                            </tr>
+                            <tr>
+                                <td>2. Roll your clothes for more space.</td>
+                            </tr>
+                            <tr>
+                                <td>3. Sign up for last-minute deals on Headout.</td>
+                            </tr>
+                            <tr>
+                                <td>4. If you're feeling jetlagged, try going for a run to help reset your body clock
+                                    and energize yourself for the day ahead.</td>
+                            </tr>
+                            <tr>
+                                <td>5. Make friends on the road using Travel Buddies and Backpack.</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <br>
+
+    <div class="about" id="about">
+        <h1 class="center">About Us</h1>
+
+        <!-- Welcome Section -->
+        <section class="container">
+            <h3 class="center amber-text text-lighten-1" style="font-weight: 300; font-style: italic;">
+                Welcome to Aurum Travels – Your Gateway to the Wonders of Southeast Asia!
+            </h3>
+            <br>
+            <p style="font-size: 20px; text-align: justify; text-indent: 3em;">
+                Southeast Asia is a region like no other, where history meets modernity, and natural beauty blends with
+                vibrant cultures.
+                From the rich heritage of cities like Jakarta and Manila to the serene landscapes of Bali and Halong
+                Bay, there's something here
+                for every type of traveler. Whether you're an adventurer, a culture enthusiast, or simply looking to
+                unwind,
+                Southeast Asia offers an experience unlike anywhere else in the world.
+                At Aurum, we are passionate about showcasing the breathtaking beauty, rich culture, and hidden gems of
+                Southeast Asia.
+                Our mission is simple: to bring the most iconic and unforgettable tourist destinations in this vibrant
+                region to your fingertips.
+                Whether you’re dreaming of exploring the ancient temples of Angkor Wat, relaxing on the pristine beaches
+                of Thailand,
+                or immersing yourself in the bustling streets of Vietnam, Aurum Travels is here to inspire your next
+                adventure.
+            </p>
+        </section>
+
+
+        <br>
+        <!-- Mission and Vision -->
+        <div class="container">
+            <div class="row">
+                <!-- Mission Column -->
+                <div class="col s12 m6">
+                    <div class="card-panel mission-card">
+                        <div class="card-content">
+                            <h3 class="center-align amber-text text-ligthen-1" style="font-weight: 600;">Mission</h3>
+                            <p style="font-size: 18px; text-align: justify;">
+                                At Aurum Travels, we're on a mission to turn your dream adventure into a golden reality!
+                                We guide travelers through the vibrant heart of Southeast Asia, offering insider tips,
+                                hidden gems, unforgettable experiences, and tailored itineraries designed to create
+                                lifelong memories. Whether you're seeking tranquil beaches, bustling cities, or ancient
+                                temples, we ensure every moment of your journey is filled with awe and wonder.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Vision Column -->
+                <div class="col s12 m6">
+                    <div class="card-panel vision-card">
+                        <div class="card-content">
+                            <h3 class="center-align amber-text text-ligthen-1" style="font-weight: 600;">Vision</h3>
+
+                            <p style="font-size: 18px; text-align: justify;">
+                                To be the ultimate travel companion for explorers seeking the magic of Southeast Asia.
+                                Aurum Travels envisions a world where every wanderer finds their golden moment.
+                                From stunning landscapes to vibrant cultures and rich traditions, we offer authentic
+                                experiences.
+                                Our goal is to guide you beyond ordinary destinations to truly unforgettable adventures.
+                                Join us in discovering the heart of Southeast Asia, where every journey is a treasure.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container center-align">
+            <a href="founders.html"
+                class="waves-effect waves-blue-grey lighten-4 btn-flat amber-text text-ligthen-1">Click Here to See
+                Founders</a>
+        </div>
+    </div>
+
+    <br><br>
+
+
+    <div class="contact" id="contact">
+        <h1 class="center-align">Contact Us</h1>
+
+        <!-- First Row -->
+        <div class="row container">
+            <!-- First Contact Card -->
+            <div class="col s12 m4 l4 center-align">
+                <div class="card-panel grey">
+                    <img src="images/nics2.jpg" alt="Nicole 1" class="responsive-img circle">
+                    <h6>Ma. Nicole Batallones</h6>
+                    <p>ma.nicolebatallones@gmail.com</p>
+                    <div class="socials">
+                        <a href="https://web.facebook.com/colebatallones/" target="_blank">
+                            <i class="fa-brands fa-facebook blue-text text-darken-3"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Second Contact Card -->
+            <div class="col s12 m4 l4 center-align">
+                <div class="card-panel grey">
+                    <img src="images/LOVELY .jpeg" alt="lovely" class="responsive-img circle">
+                    <h6>Lovely Clarion</h6>
+                    <div class="socials">
+                        <p>@gmail.com</p>
+                        <a href="https://web.facebook.com/lvlyclrn" target="_blank">
+                            <i class="fa-brands fa-facebook blue-text text-darken-3"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Third Contact Card -->
+            <div class="col s12 m4 l4 center-align">
+                <div class="card-panel grey">
+                    <img src="images/ALDAY.jpeg" alt="alday" class="responsive-img circle">
+                    <h6>Anajiely Jahrella Alday</h6>
+                    <div class="socials">
+                        <p>anajielyalday@gmail.com</p>
+                        <a href="https://www.facebook.com/Ajalday.14" target="_blank">
+                            <i class="fa-brands fa-facebook blue-text text-darken-3"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Second Row -->
+        <div class="row container">
+            <!-- Fourth Contact Card -->
+            <div class="col s12 m6 l6 center-align">
+                <div class="card-panel grey">
+                    <img src="images/CALEB.jpg" alt="caleb" class="responsive-img circle">
+                    <h6>Hajj Caleb Mckenzy Lesano</h6>
+                    <div class="socials">
+                        <p>mackenzy.lesano@gmail.com</p>
+                        <a href="https://web.facebook.com/mckenzy.lesano" target="_blank">
+                            <i class="fa-brands fa-facebook blue-text text-darken-3"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Fifth Contact Card -->
+            <div class="col s12 m6 l6 center-align">
+                <div class="card-panel grey">
+                    <img src="images/ROSE ANN.jpeg" alt="rose" class="responsive-img circle">
+                    <h6>Rose Ann C. Anico</h6>
+                    <div class="socials">
+                        <p>@gmail.com</p>
+                        <a href="https://www.facebook.com/esor.an.2024" target="_blank">
+                            <i class="fa-brands fa-facebook blue-text text-darken-3"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br><br><br>
+
+    <footer class="center-align black">
+        <p>&copy; 2024 <span class="amber-text text-lighten-1">Aurum</span>Travels | Designed with ❤️</p>
+    </footer>
+
+    <!-- jquery CDN -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            $('.sidenav').sidenav();
+        });
+
+        $(document).ready(function () {
+            // Initialize dropdown
+            $(".dropdown-trigger").dropdown();
+
+            // When a dropdown item is clicked
+            $('#dropdown1 li a').on('click', function (e) {
+                e.preventDefault(); // Prevent the default link behavior
+
+                // Get the text of the selected dropdown item
+                var selectedText = $(this).text();
+
+                // Update the text of the dropdown trigger (the button text)
+                $('.dropdown-trigger').html(selectedText + ' <i class="material-icons right">arrow_drop_down</i>');
+
+                // Remove active class from all dropdown items
+                $('#dropdown1 li').removeClass('active');
+
+                // Add active class to the selected item (on <li> element)
+                $(this).parent().addClass('active');  // Ensure the parent <li> is marked as active
+
+                // Open "Delicacies" in a new tab using JavaScript
+                if (selectedText === 'Delicacies') {
+                    window.location.href = 'all_deli.html'; // Open all_deli.html in a new tab
+                } else if (selectedText === 'Destinations') {
+                    $('.country').load('destinations.html');
+                } else if (selectedText === 'Travel Tips') {
+                    $('.country').load('traveltips.html');
+                } else if (selectedText === 'Gallery I') {
+                    window.location.href = 'parallax.html'; // Open gallery.html in a new tab
+                } else if (selectedText === 'Gallery II') {
+                    window.location.href = 'gallery.html'; // Open gallery.html in a new tab
+                }
+            });
+
+            // Load default content (Destinations)
+            $('.country').load('destinations.html');
+            $('.pagination li:first').addClass('active amber'); // Set default active state with black text
+        });
+    </script>
+
+
+
+    <script>
+        $(document).ready(function () {
+            // Navbar item click event
+            $('.nav-wrapper ul li a').on('click', function (e) {
+                e.preventDefault(); // Prevent default anchor behavior
+
+                // Remove active class and underline from all items
+                $('.nav-wrapper ul li').removeClass('active');
+
+                // Add active class and underline to the clicked item
+                $(this).parent().addClass('active');
+
+                // Get the target section (for example, scroll to home, destinations, etc.)
+                var target = $(this).attr('href');
+
+                // Optional: scroll to the target section smoothly
+                $('html, body').animate({
+                    scrollTop: $(target).offset().top
+                }, 500);
+            });
+        });
+
+    </script>
+
+    <script>
+        $(document).ready(function () {
+            // Smooth scroll for all links with the class 'scroll-to'
+            $(".scroll-to").on("click", function (e) {
+                e.preventDefault(); // Prevent default anchor behavior
+                const target = $(this).attr("href"); // Get the target section ID
+                $("html, body").animate(
+                    {
+                        scrollTop: $(target).offset().top, // Scroll to the target's top offset
+                    },
+                    800 // Duration of the animation in milliseconds
+                );
+            });
+        });
+    </script>
+
+    <script>
+        $(document).ready(function () {
+            // Initialize the carousel with auto-slide
+            $('.carousel-slider').carousel({
+                fullWidth: true,
+                duration: 500
+            });
+
+            // Start auto-sliding the carousel immediately
+            setInterval(function () {
+                $('.carousel').carousel('next');
+            }, 5000); // Change slide every 5 seconds
+        });
+
+    </script>
+
+    <script>
+        $(document).ready(function () {
+            // Load default content (Philippines)
+            $('.country').load('philippines.html');
+            $('.video').load('philippines-video.html'); // Default video file for Philippines
+            $('.pagination li:first').addClass('active amber'); // Set default active state with black text
+
+            // Set the default active state for the navbar (Home)
+            $('.nav-wrapper .right li:first').addClass('active amber-tex text-lihten-1'); // "Home" link active by default
+
+            // Listen for clicks on country links
+            $('.country-link').on('click', function (e) {
+                e.preventDefault(); // Prevent default link behavior
+
+                // Get the target country (Philippines, Singapore, etc.)
+                var target = $(this).data('target');
+
+                // Load the corresponding HTML content into the .country div
+                $('.country').load(target + '.html');
+                // Load the corresponding video HTML content for the selected country
+                $('.video').load(target + '-video.html');
+
+                // Update the active class on the pagination menu
+                $('.pagination li').removeClass('active amber'); // Remove active class and black-text color from all
+                $(this).parent().addClass('active amber'); // Add active class and black-text color to the clicked item
+            });
+
+            // Add event listener for the Home link to make it active when clicked
+            $('.nav-wrapper .right li:first a').on('click', function (e) {
+                e.preventDefault(); // Prevent default link behavior
+
+                // Remove the active class from other links
+                $('.nav-wrapper .right li').removeClass('active black-text');
+
+                // Add the active class to Home
+                $(this).parent().addClass('active black-text');
+            });
+        });
+
+    </script>
+
+
+
+</body>
+
+</html>

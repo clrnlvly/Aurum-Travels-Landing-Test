@@ -1,0 +1,285 @@
+.home {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+}
+.home .carousel {
+    z-index: 0;
+}
+.home-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    text-align: center;
+    max-width: 800px;
+}
+.home-content h1 {
+    font-size: 3rem;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 0 5px 5px 5px;
+    border-radius: 5px;
+}
+.home-content .btn-large {
+    margin-top: 20px;
+}
+
+
+.carousel .carousel-item img {
+    object-fit: cover;
+    height: 100vh;
+}
+
+
+
+#destinations {
+    margin-top: 0;
+    padding: 50px 0;
+    z-index: 0;
+    position: relative;
+}
+
+a {
+    font-weight: 600;
+}
+
+
+
+
+#dropdown1 {
+    position: static !important;
+}
+
+#dropdown1 ul li{
+    border: 1px solid #616161;
+}
+/* Style for dropdown items */
+#dropdown1 li a {
+    color: #fff;
+    transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition */
+}
+
+/* Hover effect for dropdown items */
+#dropdown1 li a:hover {
+    background-color: #424242; /* Darken the black background slightly */
+    color: #ffca28; /* White text on hover */
+}
+
+/* Optional: Add hover effect for dividers if needed */
+#dropdown1 .divider {
+    background-color: #616161; /* Slightly lighter divider color */
+    transition: background-color 0.3s ease;
+}
+
+#dropdown1 .divider:hover {
+    background-color: #757575; /* Lighter color on hover */
+}
+
+#dropdown1 li.active a {
+    color: #ffca28;
+}
+
+
+
+
+.nav-wrapper ul li.active a {
+    color: #ffca28;
+}
+
+        /* Increase navbar height */
+.navbar-fixed nav {
+    height: 80px; /* Adjust height as needed */
+    line-height: 80px; /* Ensures text vertically aligns */
+}
+
+/* Adjust font size for navbar links and brand logo */
+.navbar-fixed nav a {
+    font-size: 18px; /* Adjust font size as needed */
+}
+
+/* Adjust brand logo font size */
+.navbar-fixed .brand-logo {
+    font-size: 30px; /* Adjust font size as needed */
+    font-weight: 700;
+}
+
+.nav-wrapper li a i{
+    line-height: 75px;
+    margin-left: 5px;
+}
+
+.nav-wrapper .sidenav-trigger i{
+    line-height: 83px;
+    font-size: 36px;
+}
+
+.sidenav li a i {
+    margin: 0;
+}
+
+
+
+
+#traveltips {
+    margin-top: 0;
+    padding: 50px 0;
+    z-index: 0;
+    position: relative;
+}
+
+.travel-tips {
+    background: url('./images/travel1.jpg') center/cover;
+    height: 100vh;
+    z-index: 1;
+    position: relative; 
+}
+
+.travel-tips h2 {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+
+
+
+
+#about {
+    margin-top: 0;
+    padding: 50px 0;
+    z-index: 0;
+    position: relative;
+}
+
+
+
+footer {
+    background-color: #222;
+    color: white;
+    padding: 10px 0;
+}
+
+
+
+
+
+/* Style for each card-panel */
+.vision-card, .mission-card {
+    position: relative;
+    padding: 30px;
+    color: white;
+    background-size: cover;
+    background-position: center;
+}
+
+/* Mission card with background image */
+.mission-card {
+    background-image: url('images/mission.jpg'); /* Replace with your mission image URL */
+}
+
+/* Vision card with background image */
+.vision-card {
+    background-image: url('images/vision.jpg'); /* Replace with your vision image URL */
+}
+
+
+
+/* Card content styling */
+.card-content {
+    position: relative;
+    z-index: 1; /* Ensure the content is above the blurred background */
+}
+
+/* Optional: Add background color for contrast */
+.vision-card:before, .mission-card:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.4); /* Add a dark overlay for better text readability */
+    z-index: 0; /* Place the overlay below the text */
+    
+}
+
+/* Make sure images are responsive */
+img.responsive-img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+
+
+
+
+
+#contact {
+    margin-top: 0;
+    padding: 40px 0;
+    z-index: 0;
+    position: relative;
+}
+
+#contact a i{
+    font-size: 25px;
+    margin-right: 5px;
+}
+
+#contact img {
+    width: 80px;
+    height: 80px;
+}
+
+#contact {
+    background: url('./images/travel7.jpg') center/cover;
+    height: 100vh;
+    z-index: 1;
+    position: relative; 
+}
+
+#contact .row {
+    margin-bottom: 0;
+}
+
+
+
+
+
+
+
+    /* Styles inside the media query */
+    @media screen and (max-width: 768px) {
+
+        /* Override styles for smaller screens */
+        .php h1 {
+            color: black !important;
+            padding-top: 0px !important;
+        }
+
+        .travel-tips {
+            background: none !important;
+            height: auto !important;
+            /* Adjust height for mobile view */
+        }
+
+        #contact {
+            background: none !important;
+            height: auto !important;
+            /* Adjust height for mobile view */
+        }
+
+        .travel-tips::after {
+            background: none !important;
+        }
+
+        #contact::after {
+            background: none !important;
+        }
+    }
+

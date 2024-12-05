@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AurumParadise</title>
+
+    <!-- Material Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!-- Materialize CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <!-- Custom CSS -->
+    <style>
+        h1 {
+            margin-top: 0;
+            font-weight: 700;
+            padding-top: 20px;
+        }
+
+        .php {
+            background: url('./travel-images/thai-flag.jpg') center/cover no-repeat;
+            height: 1000px;
+            /* Full height of the viewport */
+            position: relative;
+        }
+
+        .php::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: url('./travel-images/thai-flag.jpg') center/cover no-repeat;
+            /* Apply the same background image */
+            filter: blur(20px);
+            /* Apply blur to the background image */
+            z-index: -1;
+            /* Ensure the blur is behind content */
+        }
+
+        /* Styles inside the media query */
+        @media screen and (max-width: 768px) {
+
+            /* Override styles for smaller screens */
+            .php h1 {
+                color: black !important;
+                padding-top: 0px !important;
+            }
+
+            .php {
+                background: none !important;
+                height: auto !important;
+                /* Adjust height for mobile view */
+            }
+
+            .php::after {
+                background: none !important;
+            }
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="php">
+        <br>
+        <br>
+        <h1 class="center white-text">Thailand</h1>
+        <br>
+        <br>
+        <!-- Main Row -->
+        <div class="row container">
+            <!-- Left Column: Image Card -->
+            <div class="col s12 m4">
+                <div class="card small">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="travel-images/Chiang Mai.jpg">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">Chiang Mai<i
+                                class="material-icons right">more_vert</i></span>
+                        <p><a href="https://vespaadventures.com/five-local-dishes-you-have-to-try-in-chiang-mai/"
+                                target="_blank">Taste The Local</a></p>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4" style="text-align: center;">"Chiang Mai:
+                            Thailand’s Cultural and Natural Gem"<i class="material-icons right"></i></span>
+                        <p style="text-align: justify;">Chiang Mai, located in northern Thailand, is a captivating city
+                            that blends rich cultural heritage with stunning natural landscapes. Known as the "Rose of
+                            the North," Chiang Mai is home to over 300 temples, including the iconic Wat Phra That Doi
+                            Suthep, which offers panoramic views of the city and surrounding mountains. </p>
+                        <p style="text-align: justify;">The city also serves as a gateway to nearby hill tribes,
+                            offering opportunities for trekking and exploring lush jungles, waterfalls, and traditional
+                            villages. Chiang Mai is famous for its vibrant festivals, such as the Yi Peng Lantern
+                            Festival, and its delicious northern Thai cuisine, including dishes like khao soi. With its
+                            mix of history, culture, and nature, Chiang Mai is a must-visit destination for travelers
+                            seeking a balance of adventure and tranquility.</p>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="col s12 m4">
+                <div class="card small">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="travel-images/Doi Inthanon National Park.avif">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">Doi Inthanon National Park<i
+                                class="material-icons right">more_vert</i></span>
+                        <p><a href="https://www.alamy.com/food-stands-at-doi-inthanon-national-park-chiang-mai-thailand-image545867298.html"
+                                target="_blank">Food Stands</a></p>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4" style="text-align: center;">"Doi Inthanon
+                            National Park: Thailand’s Majestic Highland Retreat"<i
+                                class="material-icons right"></i></span>
+                        <p style="text-align: justify;">Doi Inthanon National Park, located in northern Thailand, is
+                            home to the country's highest peak, Doi Inthanon, which rises to 2,565 meters above sea
+                            level. The park is renowned for its stunning landscapes, diverse ecosystems, and rich
+                            biodiversity, offering a haven for nature lovers and trekkers. Visitors can explore misty
+                            forests, waterfalls, and scenic viewpoints, including the famous Wachirathan and Sirithan
+                            Waterfalls.
+                        </p>
+                        <p style="text-align: justify;">The park is also home to vibrant flora, including orchids and
+                            rhododendrons, and various bird species, making it a popular spot for birdwatching. With its
+                            cool climate, lush vegetation, and serene beauty, Doi Inthanon National Park is a must-visit
+                            for those looking to experience the natural beauty and tranquility of Thailand’s highlands.
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="col s12 m4">
+                <div class="card small">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="travel-images/The Grand Palace.webp">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">The Grand Palace<i
+                                class="material-icons right">more_vert</i></span>
+                        <p><a href="https://thaitravelinsider.com/best-restaurants-grand-palace/" target="_blank">Dine
+                                Near Palace</a></p>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4" style="text-align: center;">"The Grand Palace:
+                            A Glimpse into Thailand’s Royal Majesty"<i class="material-icons right"></i></span>
+                        <p style="text-align: justify;">The Grand Palace, located in the heart of Bangkok, Thailand, is
+                            a stunning architectural masterpiece and a symbol of the country’s royal heritage. Built in
+                            1782, the palace complex consists of beautiful courtyards, ornate buildings, and intricate
+                            temples, including the revered Wat Phra Kaew, which houses the Emerald Buddha, Thailand’s
+                            most important religious artifact.
+                        </p>
+                        <p style="text-align: justify;">The Grand Palace showcases a mix of traditional Thai and Western
+                            architectural styles, with golden spires, elaborate carvings, and colorful murals. Once the
+                            official residence of the Thai kings, the palace now serves as a ceremonial site and is a
+                            major tourist attraction. With its rich history, cultural significance, and breathtaking
+                            beauty, the Grand Palace is a must-visit for anyone exploring Bangkok.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <!-- Left Column: Image Card -->
+                <div class="col s12 m4">
+                    <div class="card small">
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <img class="activator" src="travel-images/Khao Yai National Park.jpg">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title activator grey-text text-darken-4">Khao Yai National Park<i
+                                    class="material-icons right">more_vert</i></span>
+                            <p><a href="https://www.tripadvisor.com/Restaurants-g3218970-Khao_Yai_National_Park_Nakhon_Ratchasima_Province.html"
+                                    target="_blank">Restaurants</a></p>
+                        </div>
+                        <div class="card-reveal">
+                            <span class="card-title grey-text text-darken-4" style="text-align: center;">"Khao Yai
+                                National Park: Thailand’s Natural Paradise"<i class="material-icons right"></i></span>
+                            <p style="text-align: justify;">Khao Yai National Park, located in central Thailand, is one
+                                of the country’s largest and most diverse national parks, offering a haven for wildlife
+                                enthusiasts, trekkers, and nature lovers. A UNESCO World Heritage Site, the park is home
+                                to lush rainforests, grasslands, waterfalls, and rich biodiversity, including elephants,
+                                tigers, gibbons, and various bird species. </p>
+                            <p style="text-align: justify;">Visitors can explore numerous trails, visit the picturesque
+                                Haew Narok and Haew Suwat Waterfalls, and enjoy panoramic views from the park’s many
+                                viewpoints. With its cool climate, tranquil atmosphere, and abundant wildlife, Khao Yai
+                                National Park is a must-visit destination for anyone seeking to experience the natural
+                                beauty of Thailand.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col s12 m4">
+                    <div class="card small">
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <img class="activator" src="travel-images/The Upper Gulf.jpg">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title activator grey-text text-darken-4">The Upper Gulf<i
+                                    class="material-icons right">more_vert</i></span>
+                            <p><a href="https://travelsetu.com/guide/intramuros-tourism/food-in-intramuros"
+                                    target="_blank">Food Trip</a></p>
+                        </div>
+                        <div class="card-reveal">
+                            <span class="card-title grey-text text-darken-4" style="text-align: center;">"The Upper
+                                Gulf: A Tranquil Coastal Escape in Thailand"<i class="material-icons right"></i></span>
+                            <p style="text-align: justify;">The Upper Gulf of Thailand, located in the central part of
+                                the country, is known for its stunning coastal landscapes, serene islands, and vibrant
+                                marine life. This region encompasses several provinces, including Phetchaburi, Prachuap
+                                Khiri Khan, and the area surrounding the famous Hua Hin beach. It is also home to the
+                                picturesque Sam Roi Yot National Park, known for its limestone mountains, saltwater
+                                marshes, and scenic beaches. </p>
+                            <p style="text-align: justify;">The Upper Gulf offers opportunities for water activities
+                                like snorkeling, kayaking, and fishing, along with quiet seaside retreats and cultural
+                                sites. With its natural beauty and calm ambiance, the Upper Gulf is an ideal destination
+                                for those looking to experience the tranquility and charm of Thailand’s coastal regions.
+                            </p>
+                        </div>
+
+
+                    </div>
+                </div>
+
+                <div class="col s12 m4">
+                    <div class="card small">
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <img class="activator" src="travel-images/The Death Railway.jpg">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title activator grey-text text-darken-4">The Death Railway<i
+                                    class="material-icons right">more_vert</i></span>
+                            <p><a href="https://www.tripadvisor.com/RestaurantsNear-g297924-d1575676-The_Thailand_Burma_Railway_Centre-Kanchanaburi_Kanchanaburi_Province.html"
+                                    target="_blank">Eat During the Historic Journey</a></p>
+                        </div>
+                        <div class="card-reveal">
+                            <span class="card-title grey-text text-darken-4" style="text-align: center;">"The Death
+                                Railway: A Historic and Sobering Journey Through Thailand"<i
+                                    class="material-icons right"></i></span>
+                            <p style="text-align: justify;">The Death Railway, also known as the Thailand-Burma Railway,
+                                is a historic railway line that stretches from Thailand to Burma (Myanmar), built during
+                                World War II under the Japanese occupation. The construction of the railway was a tragic
+                                and harrowing chapter in history, as it involved the forced labor of thousands of Allied
+                                prisoners of war and Asian laborers, many of whom died due to harsh working conditions,
+                                malnutrition, and disease.</p>
+                            <p style="text-align: justify;">The most famous part of the railway is the stretch through
+                                Kanchanaburi Province in Thailand, where visitors can walk along the tracks, visit the
+                                famous Bridge on the River Kwai, and explore the associated museums and war cemeteries.
+                                The Death Railway serves as a somber reminder of the suffering endured by those who
+                                built it and remains an important historical site for reflection and remembrance.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="center container">
+                <a class="waves-effect waves-light btn-large" id="book-btn" href="book-now.html">
+                    <i class="material-icons right">flight</i>
+                    Book your travel now
+                </a>
+            </div>
+        </div>
+
+        <!-- jQuery and Materialize JavaScript -->
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+        <!-- Initialize Materialize Components -->
+        <script>
+            $(document).ready(function () {
+                // Initialize slider
+                $('.slider').slider({
+                    height: 300, // Adjust height
+                    indicators: true, // Show indicators
+                    interval: 4000 // Time between transitions
+                });
+            });
+        </script>
+</body>
+
+</html>

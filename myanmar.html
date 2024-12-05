@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AurumParadise</title>
+
+    <!-- Material Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!-- Materialize CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <!-- Custom CSS -->
+    <style>
+        h1 {
+            margin-top: 0;
+            font-weight: 700;
+            padding-top: 20px;
+        }
+
+        .php {
+            background: url('./travel-images/myanmar-flag.jpg') center/cover no-repeat;
+            height: 1000px;
+            /* Full height of the viewport */
+            position: relative;
+        }
+
+        .php::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: url('./travel-images/myanmar-flag.jpg') center/cover no-repeat;
+            /* Apply the same background image */
+            filter: blur(20px);
+            /* Apply blur to the background image */
+            z-index: -1;
+            /* Ensure the blur is behind content */
+        }
+
+        /* Styles inside the media query */
+        @media screen and (max-width: 768px) {
+
+            /* Override styles for smaller screens */
+            .php h1 {
+                color: black !important;
+                padding-top: 0px !important;
+            }
+
+            .php {
+                background: none !important;
+                height: auto !important;
+                /* Adjust height for mobile view */
+            }
+
+            .php::after {
+                background: none !important;
+            }
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="php">
+        <br>
+        <br>
+        <h1 class="center white-text">Myanmar</h1>
+        <br>
+        <br>
+        <!-- Main Row -->
+        <div class="row container">
+            <!-- Left Column: Image Card -->
+            <div class="col s12 m4">
+                <div class="card small">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="travel-images/Yangon (Rangoon).jpg">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">Yangon (Rangoon)<i
+                                class="material-icons right">more_vert</i></span>
+                        <p><a href="https://fromacrossthekitchentableblog.blogspot.com/2017/10/yangon-street-food-rangoon-tea-house.html"
+                                target="_blank">Street Food</a></p>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4" style="text-align: center;">"Yangon (Rangoon):
+                            Myanmar’s Cultural and Historical Heart"<i class="material-icons right"></i></span>
+                        <p style="text-align: justify;">Yangon, formerly known as Rangoon, is Myanmar’s largest city and
+                            its cultural, political, and economic hub. The city is renowned for its colonial
+                            architecture, vibrant markets, and religious landmarks, including the stunning Shwedagon
+                            Pagoda, one of the most revered Buddhist sites in Southeast Asia. Yangon offers a mix of old
+                            and new, with bustling street markets, traditional tea houses, and modern shopping malls.
+                        </p>
+                        <p style="text-align: justify;">Visitors can explore the tranquil Kandawgyi Lake, stroll through
+                            the colonial-era streets, or visit the National Museum to learn about Myanmar’s rich
+                            heritage. Despite its urban development, Yangon retains its charm with a blend of historical
+                            significance, spiritual importance, and local life, making it a must-visit destination for
+                            those seeking to experience Myanmar's diverse culture.</p>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="col s12 m4">
+                <div class="card small">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="travel-images/Mandalay.jpg">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">Mandalay<i
+                                class="material-icons right">more_vert</i></span>
+                        <p><a href="https://www.misstamchiak.com/must-try-mandalay-street-food/"
+                                target="_blank">Must-Try Street Food</a></p>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4" style="text-align: center;">"Mandalay: The
+                            Royal Heart of Myanmar"<i class="material-icons right"></i></span>
+                        <p style="text-align: justify;">Mandalay, Myanmar's second-largest city, is a cultural and
+                            historical treasure trove located in the central part of the country. Once the royal capital
+                            of the Konbaung Dynasty, Mandalay is a hub of Myanmar’s Buddhist heritage and royal history.
+                            Visitors can explore the impressive Mandalay Palace, the Mahamuni Pagoda, and the ancient U
+                            Bein Bridge, the longest teakwood bridge in the world.
+                        </p>
+                        <p style="text-align: justify;">The nearby hilltop Mandalay Hill offers panoramic views of the
+                            city and its surroundings. Mandalay is also a gateway to ancient cities like Amarapura and
+                            Sagaing, known for their temples and monasteries. Rich in tradition and history, Mandalay
+                            provides a deep dive into Myanmar’s royal and religious past, making it an essential
+                            destination for travelers.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col s12 m4">
+                <div class="card small">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="travel-images/Bagan.jpg">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">Bagan<i
+                                class="material-icons right">more_vert</i></span>
+                        <p><a href="https://www.boozefoodtravel.com/what-to-eat-in-bagan/" target="_blank">What to Eat
+                                in Bagan</a></p>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4" style="text-align: center;">"Bagan: The Ancient
+                            Temple City of Myanmar"<i class="material-icons right"></i></span>
+                        <p style="text-align: justify;">Bagan, located in central Myanmar, is one of the world’s most
+                            remarkable archaeological sites, known for its vast expanse of ancient temples, pagodas, and
+                            stupas. Once the capital of the Pagan Kingdom from the 9th to 13th centuries, Bagan is home
+                            to over 2,000 well-preserved religious structures scattered across the Bagan Archaeological
+                            Zone.
+                        </p>
+                        <p style="text-align: justify;">Visitors can explore iconic temples like Ananda Temple and
+                            Shwezigon Pagoda, as well as enjoy a breathtaking hot air balloon ride over the
+                            temple-filled landscape at sunrise. The site offers a fascinating glimpse into Myanmar's
+                            rich Buddhist heritage and ancient architecture, making it a must-visit destination for
+                            history buffs and culture enthusiasts alike.
+                        </p>
+                    </div>
+
+
+                </div>
+            </div>
+
+            <div class="row">
+                <!-- Left Column: Image Card -->
+                <div class="col s12 m4">
+                    <div class="card small">
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <img class="activator" src="travel-images/Ngapali Beach.jpg">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title activator grey-text text-darken-4">Ngapali Beach<i
+                                    class="material-icons right">more_vert</i></span>
+                            <p><a href="https://tripjive.com/discover-top-dining-spots-at-ngapali-beach/"
+                                    target="_blank">Dining Spots</a></p>
+                        </div>
+                        <div class="card-reveal">
+                            <span class="card-title grey-text text-darken-4" style="text-align: center;">"Ngapali Beach:
+                                Myanmar's Tranquil Coastal Paradise"<i class="material-icons right"></i></span>
+                            <p style="text-align: justify;">Ngapali Beach, located on the Bay of Bengal in western
+                                Myanmar, is a pristine and idyllic destination known for its powdery white sands,
+                                crystal-clear waters, and serene atmosphere. The beach is relatively untouched by mass
+                                tourism, offering a peaceful escape where visitors can enjoy swimming, sunbathing, and
+                                seafood dining at local beachfront restaurants.</p>
+                            <p style="text-align: justify;">Ngapali is also a popular spot for water activities such as
+                                snorkeling, kayaking, and boat trips to nearby islands. Surrounded by lush greenery and
+                                fishing villages, Ngapali Beach is the perfect destination for travelers seeking
+                                relaxation, natural beauty, and a tranquil retreat by the sea.</p>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col s12 m4">
+                    <div class="card small">
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <img class="activator" src="travel-images/Inle Lake.jpg">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title activator grey-text text-darken-4">Inle Lake<i
+                                    class="material-icons right">more_vert</i></span>
+                            <p><a href="https://www.travelfish.org/eatandmeet/burma_myanmar/central_burma_myanmar/shan_state/inle_lake/eat"
+                                    target="_blank">Food and Drinks</a></p>
+                        </div>
+                        <div class="card-reveal">
+                            <span class="card-title grey-text text-darken-4" style="text-align: center;">"Inle Lake: A
+                                Serene Oasis of Myanmar"<i class="material-icons right"></i></span>
+                            <p style="text-align: justify;">Inle Lake, located in the Shan State of Myanmar, is a
+                                stunning high-altitude lake renowned for its tranquil beauty, traditional floating
+                                villages, and unique way of life. The lake is surrounded by rolling hills and is home to
+                                the Intha people, who are known for their distinctive one-legged rowing technique.
+                                Visitors can explore the lake by boat, navigating its serene waters to visit floating
+                                gardens, stilt houses, and temples like the Phaung Daw Oo Pagoda. </p>
+                            <p style="text-align: justify;">The surrounding area also offers opportunities for trekking,
+                                visiting local markets, and experiencing the culture of the hill tribes. With its
+                                picturesque landscapes, traditional culture, and peaceful atmosphere, Inle Lake is a
+                                must-visit destination for those seeking to immerse themselves in Myanmar’s natural and
+                                cultural heritage.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col s12 m4">
+                    <div class="card small">
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <img class="activator" src="travel-images/Shwenandaw Monastery.jpg">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title activator grey-text text-darken-4">Shwenandaw Monastery<i
+                                    class="material-icons right">more_vert</i></span>
+                            <p><a href="https://travelsetu.com/guide/shwenandaw-monastery-tourism/food-in-shwenandaw-monastery"
+                                    target="_blank">Food Coma</a></p>
+                        </div>
+                        <div class="card-reveal">
+                            <span class="card-title grey-text text-darken-4" style="text-align: center;">"Shwenandaw
+                                Monastery: A Masterpiece of Myanmar's Wood Carving Art"<i
+                                    class="material-icons right"></i></span>
+                            <p style="text-align: justify;">Shwenandaw Monastery, located in Mandalay, Myanmar, is a
+                                stunning example of traditional Burmese architecture and craftsmanship. Known for its
+                                intricate teak wood carvings, the monastery is a former royal building originally part
+                                of the Mandalay Palace complex. Built in the late 19th century, it was converted into a
+                                monastery after the death of King Mindon, and it is revered for its detailed depictions
+                                of Buddhist stories and life.</p>
+                            <p style="text-align: justify;">The monastery’s serene atmosphere, combined with its
+                                exquisite carvings and historical significance, makes it one of Myanmar's most important
+                                religious sites. Visitors to Shwenandaw Monastery can appreciate both its architectural
+                                beauty and its spiritual importance as a center of meditation and reflection.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="center container">
+                <a class="waves-effect waves-light btn-large" id="book-btn" href="book-now.html">
+                    <i class="material-icons right">flight</i>
+                    Book your travel now
+                </a>
+            </div>
+        </div>
+
+        <!-- jQuery and Materialize JavaScript -->
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+        <!-- Initialize Materialize Components -->
+        <script>
+            $(document).ready(function () {
+                // Initialize slider
+                $('.slider').slider({
+                    height: 300, // Adjust height
+                    indicators: true, // Show indicators
+                    interval: 4000 // Time between transitions
+                });
+            });
+        </script>
+</body>
+
+</html>

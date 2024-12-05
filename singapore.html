@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AurumParadise</title>
+
+    <!-- Material Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!-- Materialize CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <!-- Custom CSS -->
+    <style>
+        h1 {
+            margin-top: 0;
+            font-weight: 700;
+            padding-top: 20px;
+        }
+
+        .php {
+            background: url('./travel-images/singapore-flag.avif') center/cover no-repeat;
+            height: 1000px;
+            /* Full height of the viewport */
+            position: relative;
+        }
+
+        .php::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: url('./travel-images/singapore-flag.avif') center/cover no-repeat;
+            /* Apply the same background image */
+            filter: blur(20px);
+            /* Apply blur to the background image */
+            z-index: -1;
+            /* Ensure the blur is behind content */
+        }
+
+        /* Styles inside the media query */
+        @media screen and (max-width: 768px) {
+
+            /* Override styles for smaller screens */
+            .php h1 {
+                color: black !important;
+                padding-top: 0px !important;
+            }
+
+            .php {
+                background: none !important;
+                height: auto !important;
+                /* Adjust height for mobile view */
+            }
+
+            .php::after {
+                background: none !important;
+            }
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="php">
+        <br>
+        <br>
+        <h1 class="center white-text">Singapore</h1>
+        <br>
+        <br>
+        <!-- Main Row -->
+        <div class="row container">
+            <!-- Left Column: Image Card -->
+            <div class="col s12 m4">
+                <div class="card small">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="travel-images/Gardens-by-the-Bay.jpg">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">Gardens by the Bay<i
+                                class="material-icons right">more_vert</i></span>
+                        <p><a href="https://eatbook.sg/gardens-by-the-bay-food/" target="_blank">Foods Guide</a></p>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4" style="text-align: center;">"Gardens by the
+                            Bay: A Green Marvel in the Heart of Singapore"<i class="material-icons right"></i></span>
+                        <p style="text-align: justify;">Gardens by the Bay is a renowned nature park in Singapore,
+                            spanning over 101 hectares in the heart of the city. It features iconic attractions such as
+                            the Supertree Grove, towering vertical gardens adorned with vibrant plants, and two
+                            climate-controlled conservatories: the Flower Dome, showcasing diverse flora from around the
+                            world, and the Cloud Forest, home to a misty mountain and cascading waterfall. </p>
+                        <p style="text-align: justify;">The park combines cutting-edge architecture with sustainability
+                            initiatives, offering visitors an immersive experience in horticulture, art, and technology.
+                            Its scenic landscapes and unique structures make it a top destination for both nature lovers
+                            and architectural enthusiasts.</p>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="col s12 m4">
+                <div class="card small">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="travel-images/Marina Bay Sands SkyPark.jpg">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">Marina Bay Sands SkyPark <i
+                                class="material-icons right">more_vert</i></span>
+                        <p><a href="https://www.klook.com/en-PH/destination/p50001860-marina-bay-sands-skypark-observation-deck/2-food-and-dining/"
+                                target="_blank">Restuarants</a></p>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4" style="text-align: center;">"Marina Bay Sands
+                            SkyPark: Singapore's Elevated Wonder"<i class="material-icons right"></i></span>
+                        <p style="text-align: justify;">The Marina Bay Sands SkyPark is a breathtaking architectural
+                            masterpiece that sits atop the iconic Marina Bay Sands resort in Singapore. Perched 57
+                            stories high, the SkyPark offers panoramic views of the city skyline, Marina Bay, and the
+                            South China Sea.
+                        </p>
+                        <p style="text-align: justify;">Its crowning jewel is the world-famous infinity pool, reserved
+                            for hotel guests, which seems to blend seamlessly with the horizon. Visitors can also enjoy
+                            an observation deck, fine dining options, and lush gardens that create a luxurious, serene
+                            atmosphere. The SkyPark is a must-visit destination, embodying Singapore's blend of
+                            modernity and elegance.</p>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="col s12 m4">
+                <div class="card small">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="travel-images/sentosa.jpg">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">Sentosa Island<i
+                                class="material-icons right">more_vert</i></span>
+                        <p><a href="https://www.sentosa.com.sg/en/things-to-do/dining/" target="_blank">Dining</a></p>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4" style="text-align: center;">"Sentosa Island:
+                            Singapore's Ultimate Getaway"<i class="material-icons right"></i></span>
+                        <p style="text-align: justify;">Sentosa Island is Singapore’s premier leisure destination,
+                            offering a perfect escape for relaxation, adventure, and entertainment. Located just off the
+                            southern coast, this tropical island boasts pristine beaches, world-class attractions, and
+                            lush greenery. Visitors can enjoy thrilling experiences at Universal Studios Singapore,
+                            S.E.A. Aquarium, and Adventure Cove Waterpark, or indulge in luxury at Sentosa’s resorts and
+                            golf courses.
+                        </p>
+                        <p style="text-align: justify;">Nature enthusiasts can explore scenic trails and the unique Fort
+                            Siloso Skywalk. Whether seeking adrenaline-pumping adventures or tranquil seaside retreats,
+                            Sentosa Island caters to all, making it a favorite destination for locals and tourists
+                            alike.</p>
+                    </div>
+
+
+                </div>
+            </div>
+
+            <div class="row">
+                <!-- Left Column: Image Card -->
+                <div class="col s12 m4">
+                    <div class="card small">
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <img class="activator" src="travel-images/albatross.jpg">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title activator grey-text text-darken-4">Royal Albatross Cruise<i
+                                    class="material-icons right">more_vert</i></span>
+                            <p><a href="https://www.tallship.com.sg/events/sunset-sail-city-lights/?srsltid=AfmBOooeqz70IXTwSR-Ycf7CBUXm6lcPg5JhaH-TLnbqWPyJaKL13jyA"
+                                    target="_blank">Sunset Dinner Cruise</a></p>
+                        </div>
+                        <div class="card-reveal">
+                            <span class="card-title grey-text text-darken-4" style="text-align: center;">"Royal
+                                Albatross Dinner Cruise: Luxury on the High Seas"<i
+                                    class="material-icons right"></i></span>
+                            <p style="text-align: justify;">The Royal Albatross Dinner Cruise offers a unique and
+                                enchanting experience aboard a majestic tall ship in Singapore. Setting sail from
+                                Sentosa Island, this luxury dining cruise combines gourmet cuisine with breathtaking
+                                views of the Singapore coastline and the open sea. </p>
+                            <p style="text-align: justify;">Guests can enjoy a romantic sunset or a starlit evening on
+                                the ship’s elegant deck, accompanied by live entertainment and exceptional service. With
+                                its vintage charm and modern comfort, the Royal Albatross Dinner Cruise provides an
+                                unforgettable escape, perfect for celebrations, romantic getaways, or simply indulging
+                                in a one-of-a-kind maritime adventure.</p>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col s12 m4">
+                    <div class="card small">
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <img class="activator" src="travel-images/universal.jpg">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title activator grey-text text-darken-4">Universal Studios Singapore<i
+                                    class="material-icons right">more_vert</i></span>
+                            <p><a href="https://www.singapore-tickets.com/resorts-world-sentosa/universal-studios-tickets/dining-restaurants/"
+                                    target="_blank">Top Picks Restaurants</a></p>
+                        </div>
+                        <div class="card-reveal">
+                            <span class="card-title grey-text text-darken-4" style="text-align: center;">"Universal
+                                Studios Singapore: A World of Movie Magic"<i class="material-icons right"></i></span>
+                            <p style="text-align: justify;">Universal Studios Singapore is Southeast Asia’s premier
+                                theme park, located on Sentosa Island, offering an immersive journey into the world of
+                                movies and entertainment. With seven themed zones, including Hollywood, Sci-Fi City, and
+                                Ancient Egypt, the park features exciting rides, live shows, and beloved characters.</p>
+                            <p style="text-align: justify;">Highlights include adrenaline-pumping attractions like
+                                Battlestar Galactica roller coasters and family-friendly adventures such as the
+                                Madagascar-themed water ride. Visitors can also enjoy vibrant parades, delectable dining
+                                options, and unique souvenirs. Universal Studios Singapore promises an unforgettable
+                                experience, blending thrills and cinematic wonder for visitors of all ages.</p>
+                        </div>
+
+
+                    </div>
+                </div>
+
+                <div class="col s12 m4">
+                    <div class="card small">
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <img class="activator" src="travel-images/Merlion Park.jpg">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title activator grey-text text-darken-4">Merlion Park<i
+                                    class="material-icons right">more_vert</i></span>
+                            <p><a href="https://www.getyourguide.com/merlion-park-l146242/food-drinks-tc103/"
+                                    target="_blank">Food and Drinks</a></p>
+                        </div>
+                        <div class="card-reveal">
+                            <span class="card-title grey-text text-darken-4" style="text-align: center;">"Merlion Park:
+                                Icon of Singapore's Heritage"<i class="material-icons right"></i></span>
+                            <p style="text-align: justify;">Merlion Park is a must-visit destination in Singapore, home
+                                to the iconic Merlion statue that symbolizes the nation’s heritage and identity. Located
+                                at Marina Bay, the park features the famous half-lion, half-fish statue, which
+                                represents Singapore's origins as a fishing village and its transformation into a global
+                                metropolis. </p>
+                            <p style="text-align: justify;">Visitors can enjoy stunning views of the city skyline, the
+                                Marina Bay Sands, and nearby attractions. A favorite spot for photos and cultural
+                                exploration, Merlion Park offers a perfect blend of history, beauty, and the vibrant
+                                spirit of Singapore.</p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="center container">
+                <a class="waves-effect waves-light btn-large" id="book-btn" href="book-now.html">
+                    <i class="material-icons right">flight</i>
+                    Book your travel now
+                </a>
+            </div>
+        </div>
+
+        <!-- jQuery and Materialize JavaScript -->
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+        <!-- Initialize Materialize Components -->
+</body>
+
+</html>
